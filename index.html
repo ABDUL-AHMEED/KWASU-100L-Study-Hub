@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KWASU CS 100L — Study Hub & CBT</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="png" href="logo (2).png">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+  <!-- TOP NAVIGATION -->
+  <header class="topbar">
+    <div class="brand">
+      <span class="badge">KWASU 100L</span>
+      <h1>CS Study Hub</h1>
+    </div>
+    <button id="themeToggle" class="btn-outline" title="Toggle Dark Mode">🌙 Dark Mode</button>
+  </header>
+
+  <!-- COURSE SELECTOR TABS -->
+  <nav id="courseTabs" class="course-tabs">
+    <!-- Populated automatically by script.js from data.js -->
+  </nav>
+
+  <!-- MAIN CONTAINER -->
+  <main class="container">
+    
+    <!-- COURSE HEADER & PROGRESS -->
+    <section class="course-banner">
+      <div>
+        <h2 id="courseTitle">Select a Course</h2>
+        <p id="courseDesc">Course overview will appear here.</p>
+      </div>
+      <div class="progress-box">
+        <span id="progressText">0% Covered</span>
+        <div class="progress-bar"><div id="progressFill"></div></div>
+      </div>
+    </section>
+
+    <!-- MODE SWITCHER -->
+    <div class="mode-switch">
+      <button class="mode-btn active" data-mode="reader">📖 PDFs & Notes</button>
+      <button class="mode-btn" data-mode="shuffler">🔀 Topic Shuffler</button>
+      <button class="mode-btn" data-mode="cbt">⏱️ 100-Q CBT Exam</button>
+      <button class="mode-btn" data-mode="missed">📌 Missed (<span id="missedCount">0</span>)</button>
+    </div>
+
+    <!-- VIEW 1: READER & PDFs -->
+    <section id="readerView" class="view active">
+      <input type="text" id="searchInput" class="search-bar" placeholder="🔍 Search any topic or keyword in this course..." />
+      <div id="topicsList" class="topics-grid">
+        <!-- Topic cards & PDF links go here -->
+      </div>
+    </section>
+
+    <!-- VIEW 2: TOPIC SHUFFLER -->
+    <section id="shufflerView" class="view">
+      <div class="card">
+        <h3>Select Topics to Shuffle</h3>
+        <p class="muted">Tick the weeks you want to test yourself on:</p>
+        <div id="topicCheckboxes" class="checkbox-list"></div>
+        <div class="controls-row">
+          <label>Questions:
+            <select id="shuffleLimit">
+              <option value="10">10 Questions</option>
+              <option value="25">25 Questions</option>
+              <option value="50" selected>50 Questions</option>
+            </select>
+          </label>
+          <button id="startShuffleBtn" class="btn-primary">Start Practice</button>
+        </div>
+      </div>
+      <div id="quizArea"></div>
+    </section>
+
+    <!-- VIEW 3: 100-QUESTION CBT EXAM -->
+    <section id="cbtView" class="view">
+      <div id="cbtIntro" class="card center">
+        <h3>Full Course CBT Simulation</h3>
+        <p>Pulls and shuffles up to <strong>100 questions</strong> across all topics in this course under a strict <strong>45-minute</strong> timer.</p>
+        <button id="startCbtBtn" class="btn-primary">Start 100-Question CBT</button>
+      </div>
+      <div id="cbtArena" class="hidden"></div>
+    </section>
+
+    <!-- VIEW 4: MISSED QUESTIONS REVIEW -->
+    <section id="missedView" class="view">
+      <div id="missedList"></div>
+    </section>
+
+  </main>
+
+  <!-- PDF / NOTE READER MODAL -->
+  <div id="readerModal" class="modal hidden">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="modalTitle">Topic Title</h3>
+        <button id="closeModal" class="btn-outline">✕ Close</button>
+      </div>
+      <div id="modalBody" class="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- LOAD DATA FIRST, THEN LOGIC -->
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
