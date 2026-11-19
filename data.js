@@ -2573,14 +2573,14 @@ const COURSES_DB = [
     ]
   },
   {
-    code: "GMT 101",
+    code: "GST 101",
     title: "General Studies & Orientation",
     description: "Departmental orientation guidelines and safety requirements.",
     topics: [
       {
         id: "gmt101-safety",
         week: "Orientation",
-        title: "Student Safety Guidelines",
+        title: "WE HV NOT YET DONE GST",
         pdfPath: "pdfs/GMT101_Orientation_Notes.pdf",
         summary: ["Essential university safety protocols and laboratory guidelines."],
         questions: []
