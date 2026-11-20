@@ -674,18 +674,6 @@ const COURSES_DB = [
   }
 ]
       },
-     {
-        id: "cos101-ppt",
-        week: "Module 4",
-        title: "PowerPoint Lecture Slides Summary",
-        pdfPath: "pdfs/Power point_114325",
-        summary: [
-          "PowerPoint 2010 uses a tabbed Ribbon system and Quick Access Toolbar[cite: 24].",
-          "Press F5 to launch a slideshow from the beginning[cite: 24].",
-          "Animations are categorized into Entrance, Emphasis, and Exit effects[cite: 24]."
-        ],
-        questions: [
-        
       {
         id: "cos101-ppt",
         week: "Module 4",
