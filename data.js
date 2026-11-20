@@ -685,7 +685,7 @@ const COURSES_DB = [
           "Animations are categorized into Entrance, Emphasis, and Exit effects[cite: 24]."
         ],
         questions: [
-          ],
+        
       {
         id: "cos101-ppt",
         week: "Module 4",
