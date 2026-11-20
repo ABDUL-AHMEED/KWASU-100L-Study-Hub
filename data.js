@@ -364,7 +364,7 @@ const COURSES_DB = [
         id: "cos101-main",
         week: "Module 1",
         title: "Introduction to Computing Science (Comprehensive Note)",
-        pdfPath: "pdfs/COS101 INTRODUCTION TO COMPUTING SCIENCE.docx",
+        pdfPath: "pdfs/COS101 INTRODUCTION TO COMPUTING SCIENCE (part1)_113232.docx",
         summary: [
           "Computers consist of 3 primary pillars: CPU, Memory, and Input/Output devices[cite: 3].",
           "RAM is volatile temporary working memory; ROM is non-volatile permanent storage[cite: 3].",
