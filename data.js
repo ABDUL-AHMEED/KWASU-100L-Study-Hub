@@ -355,6 +355,7 @@ const COURSES_DB = [
       }
     ]
   },
+ 
   {
     code: "COS 101",
     title: "Introduction to Computing Science & Word Notes",
@@ -364,7 +365,7 @@ const COURSES_DB = [
         id: "cos101-main",
         week: "Module 1",
         title: "Introduction to Computing Science (Comprehensive Note)",
-        pdfPath: "pdfs/COS101 INTRODUCTION TO COMPUTING SCIENCE (part1)_113232.docx",
+        pdfPath: "pdfs/COS101 INTRODUCTION TO COMPUTING SCIENCE (part1)_113232.pdf",
         summary: [
           "Computers consist of 3 primary pillars: CPU, Memory, and Input/Output devices[cite: 3].",
           "RAM is volatile temporary working memory; ROM is non-volatile permanent storage[cite: 3].",
@@ -673,11 +674,23 @@ const COURSES_DB = [
   }
 ]
       },
+     {
+        id: "cos101-ppt",
+        week: "Module 4",
+        title: "PowerPoint Lecture Slides Summary",
+        pdfPath: "pdfs/Power point_114325",
+        summary: [
+          "PowerPoint 2010 uses a tabbed Ribbon system and Quick Access Toolbar[cite: 24].",
+          "Press F5 to launch a slideshow from the beginning[cite: 24].",
+          "Animations are categorized into Entrance, Emphasis, and Exit effects[cite: 24]."
+        ],
+        questions: [
+          ],
       {
         id: "cos101-ppt",
         week: "Module 4",
         title: "PowerPoint Lecture Slides Summary",
-        pdfPath: "pdfs/Power point_114325.docx",
+        pdfPath: "pdfs/Power point_114325",
         summary: [
           "PowerPoint 2010 uses a tabbed Ribbon system and Quick Access Toolbar[cite: 24].",
           "Press F5 to launch a slideshow from the beginning[cite: 24].",
@@ -988,6 +1001,7 @@ const COURSES_DB = [
       }
     ]
   },
+ 
   {
     code: "MAT 101",
     title: "Elementary Mathematics I",
