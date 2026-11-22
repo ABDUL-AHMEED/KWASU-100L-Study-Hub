@@ -198,7 +198,7 @@ const COURSES_DB = [
           {
             q: "What attribute is mandatory inside an image tag to specify the image source file path?",
             options: ["href", "link", "src", "path"],
-            answer: 2,
+                        answer: 2,
             explanation: "The src attribute defines the path to the image file."
           },
           {
@@ -355,7 +355,7 @@ const COURSES_DB = [
       }
     ]
   },
- 
+
   {
     code: "COS 101",
     title: "Introduction to Computing Science & Word Notes",
@@ -438,7 +438,7 @@ const COURSES_DB = [
     answer: 1,
     explanation: "A dedicated graphics card processes and renders visual data for display on the monitor."
   },
-  {
+    {
     q: "What was the primary characteristic of first-generation computers?",
     options: ["Transistors", "Integrated circuits", "Vacuum tubes", "Microprocessors"],
     answer: 2,
@@ -618,7 +618,7 @@ const COURSES_DB = [
     answer: 1,
     explanation: "Malware is an umbrella term for viruses, ransomware, spyware, and trojans."
   },
-  {
+    {
     q: "Which type of malware demands payment from a user in exchange for restoring access to encrypted files?",
     options: ["Adware", "Spyware", "Ransomware", "Worm"],
     answer: 2,
@@ -678,7 +678,7 @@ const COURSES_DB = [
         id: "cos101-ppt",
         week: "Module 4",
         title: "PowerPoint Lecture Slides Summary",
-        pdfPath: "pdfs/Power point_114325",
+        pdfPath: "pdfs/Power point_114325.pdf",
         summary: [
           "PowerPoint 2010 uses a tabbed Ribbon system and Quick Access Toolbar[cite: 24].",
           "Press F5 to launch a slideshow from the beginning[cite: 24].",
@@ -898,6 +898,7 @@ const COURSES_DB = [
   {
     q: "What does the 'On Mouse Click' setting control in slide transitions or animations?",
     options: ["Automatic slide looping", "Triggering the transition or animation step when the presenter clicks the mouse or presses a key", "Playing background music", "Shutting down PowerPoint"],
+        options: ["Automatic slide looping", "Triggering the transition or animation step when the presenter clicks the mouse or presses a key", "Playing background music", "Shutting down PowerPoint"],
     answer: 3,
     explanation: "On Mouse Click pauses execution until user input is received."
   },
@@ -986,10 +987,24 @@ const COURSES_DB = [
     explanation: "The Compress Pictures tool optimizes image resolution to reduce overall file weight."
   }
 ]
+      },
+      {
+        id: "cos101-hardware",
+        week: "New Lecture",
+        title: "Computer Hardware Components",
+        pdfPath: "pdfs/Hardware components_113648.pdf",
+        summary: [
+          "Introduces computer hardware and the roles of input and output devices.",
+          "Covers core components including the CPU, memory, storage, motherboard, and computer ports."
+        ],
+        questions: [
+          // TODO: Add your CBT questions for this PDF here.
+          // Keep each question in the same format as the existing questions above.
+        ]
       }
     ]
   },
- 
+
   {
     code: "MAT 101",
     title: "Elementary Mathematics I",
@@ -1224,6 +1239,7 @@ const COURSES_DB = [
   },
   {
     q: "What is De Moivre's Theorem used for in complex numbers?",
+        q: "What is De Moivre's Theorem used for in complex numbers?",
     options: ["Finding matrix determinants", "Raising a complex number in polar form to a power", "Solving linear inequalities", "Calculating set intersections"],
     answer: 1,
     explanation: "De Moivre's theorem states that (cos theta + i sin theta)^n = cos(n theta) + i sin(n theta)."
@@ -1393,14 +1409,68 @@ const COURSES_DB = [
   },
   {
     q: "Find the derivative of cos(x) with respect to x.",
-    options: ["minus sin(x)", "tan(x)", "sin(x)", "cos(x)"],
-    answer: 0,
+    options: ["sin(x)", "minus sin(x)", "tan(x)", "minus cos(x)"],
+    answer: 1,
     explanation: "The derivative of cosine is negative sine."
   },
   {
-    q: "What is the integral of 1 over x dx?",
-    options: ["x plus C", "1 over x squared plus C", "ln absolute value of x plus C", "e to the power of x"],
+    q: "What is the derivative of tan(x) with respect to x?",
+    options: ["secant squared x", "cosecant squared x", "cosine x", "sine x"],
+    answer: 0,
+    explanation: "The derivative of tangent is secant squared."
+  },
+  {
+    q: "What is the integral of cos(x) dx?",
+    options: ["minus sin(x) plus C", "cos(x) plus C", "sin(x) plus C", "minus cos(x) plus C"],
     answer: 2,
+    explanation: "The antiderivative of cosine is sine plus the constant of integration."
+  },
+  {
+    q: "What is the integral of sin(x) dx?",
+    options: ["minus cos(x) plus C", "cos(x) plus C", "sin(x) plus C", "minus sin(x) plus C"],
+    answer: 0,
+    explanation: "The antiderivative of sine is negative cosine plus the constant of integration."
+  },
+  {
+    q: "What is the derivative of a constant function?",
+    options: ["1", "x", "0", "Infinity"],
+    answer: 2,
+    explanation: "The derivative of any constant function is zero."
+  },
+  {
+    q: "What is the integral of a constant k with respect to x?",
+    options: ["k plus C", "kx plus C", "x plus C", "0"],
+    answer: 1,
+    explanation: "The integral of a constant k is kx + C."
+  },
+  {
+    q: "What is the derivative of x to the power n?",
+    options: ["n x to the power n minus 1", "x to the power n plus 1", "n x to the power n", "x to the power n minus 1"],
+    answer: 0,
+    explanation: "The power rule states d/dx(x^n) = n*x^(n-1)."
+  },
+  {
+    q: "What is the integral of x to the power n for n not equal to minus 1?",
+    options: ["x to the power n plus C", "x to the power n plus 1 over n plus 1 plus C", "n x to the power n minus 1", "x to the power n minus 1"],
+    answer: 1,
+    explanation: "The power rule for integration is integral x^n dx = x^(n+1)/(n+1) + C, provided n is not -1."
+  },
+  {
+    q: "What is the derivative of e to the power x?",
+    options: ["0", "e to the power x", "x e to the power x", "1 over x"],
+    answer: 1,
+    explanation: "The derivative of e^x is e^x."
+  },
+  {
+    q: "What is the derivative of ln(x)?",
+    options: ["1 over x", "ln(x)", "e to the power x", "x"],
+    answer: 0,
+    explanation: "The derivative of natural logarithm is 1/x."
+  },
+  {
+    q: "What is the integral of 1 over x?",
+    options: ["x", "ln absolute value of x plus C", "1 over x squared", "e to the power x"],
+    answer: 1,
     explanation: "The antiderivative of 1/x is the natural logarithm of the absolute value of x plus constant C."
   },
   {
@@ -1620,9 +1690,23 @@ const COURSES_DB = [
     explanation: "The constant term in slope-intercept form represents the y-intercept, which is -8."
   }
 ]
+      },
+      {
+        id: "mat101-quadratic",
+        week: "New Lecture",
+        title: "Quadratic Equations",
+        pdfPath: "pdfs/MTH101_Quadratic_Equations.pdf",
+        summary: [
+          "Lecture material on quadratic equations. Add a more detailed summary after reviewing the note."
+        ],
+        questions: [
+          // TODO: Add your CBT questions for this PDF here.
+          // Keep each question in the same format as the existing questions above.
+        ]
       }
     ]
   },
+   
   {
     code: "PHY 101",
     title: "General Physics I (Mechanics)",
@@ -1637,7 +1721,7 @@ const COURSES_DB = [
           "Covers vectors, kinematics, Newton's laws of motion, and work-energy theorem[cite: 10].",
           "Explores rotational motion, torque, Young's modulus, and fluid mechanics[cite: 10]."
         ],
-        questions: 
+        questions:
 [
   {
     q: "Which of the following physical quantities has the same dimensional formula as impulse?",
@@ -1921,7 +2005,7 @@ const COURSES_DB = [
     answer: 1,
     explanation: "Action and reaction forces are equal in magnitude and opposite in direction."
   },
-  {
+    {
     q: "What is the momentum of an object calculated as?",
     options: ["Force times time", "Work divided by distance", "Mass times velocity", "Mass times acceleration"],
     answer: 2,
@@ -1939,12 +2023,12 @@ const COURSES_DB = [
     answer: 3,
     explanation: "In the absence of non-conservative forces, total mechanical energy remains constant."
   }
-         ]
-      }
-    ]
-  },
-  {
-    code: "STA 111",
+]
+}
+]
+},
+{
+code: "STA 111",
     title: "Statistics for Beginners",
     description: "Statistical data collection, presentation, charts, and measures of location.",
     topics: [
@@ -2260,7 +2344,7 @@ const COURSES_DB = [
   }
 ]
       },
-      {
+            {
         id: "sta111-w4",
         week: "Week 4",
         title: "STA 111 Lecture Note 4 (Measures of Location)",
@@ -2570,7 +2654,21 @@ const COURSES_DB = [
     answer: 3,
     explanation: "Measures of location and dispersion provide rapid mathematical summaries of data behavior."
   }
-    ]
+        ]
+      },
+      {
+        id: "sta111-dispersion",
+        week: "New Lecture",
+        title: "Measures of Dispersion",
+        pdfPath: "pdfs/STA111_Measures_of_Dispersion.pdf",
+        summary: [
+          "Covers measures of spread such as range, mean deviation, variance, and standard deviation.",
+          "Includes dispersion for individual and grouped data."
+        ],
+        questions: [
+          // TODO: Add your CBT questions for this PDF here.
+          // Keep each question in the same format as the existing questions above.
+        ]
       }
     ]
   },
@@ -2589,4 +2687,4 @@ const COURSES_DB = [
       }
     ]
   }
-];
+    ]
