@@ -365,7 +365,7 @@ const COURSES_DB = [
         id: "cos101-main",
         week: "Module 1",
         title: "Introduction to Computing Science (Comprehensive Note)",
-        pdfPath: "pdfs/COS101 INTRODUCTION TO COMPUTING SCIENCE (part1)_113232.pdf",
+        pdfPath: "COS101 INTRODUCTION TO COMPUTING SCIENCE (part1)_113232.pdf",
         summary: [
           "Computers consist of 3 primary pillars: CPU, Memory, and Input/Output devices[cite: 3].",
           "RAM is volatile temporary working memory; ROM is non-volatile permanent storage[cite: 3].",
@@ -678,7 +678,7 @@ const COURSES_DB = [
         id: "cos101-ppt",
         week: "Module 4",
         title: "PowerPoint Lecture Slides Summary",
-        pdfPath: "pdfs/Power point_114325.pdf",
+        pdfPath: "Power point_114325.pdf",
         summary: [
           "PowerPoint 2010 uses a tabbed Ribbon system and Quick Access Toolbar[cite: 24].",
           "Press F5 to launch a slideshow from the beginning[cite: 24].",
@@ -1695,7 +1695,7 @@ const COURSES_DB = [
         id: "mat101-quadratic",
         week: "New Lecture",
         title: "Quadratic Equations",
-        pdfPath: "pdfs/MTH101_Quadratic_Equations.pdf",
+        pdfPath: "MTH101_Quadratic_Equations.pdf",
         summary: [
           "Lecture material on quadratic equations. Add a more detailed summary after reviewing the note."
         ],
@@ -2660,7 +2660,7 @@ code: "STA 111",
         id: "sta111-dispersion",
         week: "New Lecture",
         title: "Measures of Dispersion",
-        pdfPath: "pdfs/STA111_Measures_of_Dispersion.pdf",
+        pdfPath: "STA111_Measures_of_Dispersion.pdf",
         summary: [
           "Covers measures of spread such as range, mean deviation, variance, and standard deviation.",
           "Includes dispersion for individual and grouped data."
@@ -2682,7 +2682,7 @@ code: "STA 111",
         week: "Orientation",
         title: "WE HV NOT YET DONE GST",
         pdfPath: "pdfs/GMT101_Orientation_Notes.pdf",
-        summary: ["Essential university safety protocols and laboratory guidelines."],
+        summary: ["GST will be done on our portal."],
         questions: []
       }
     ]
