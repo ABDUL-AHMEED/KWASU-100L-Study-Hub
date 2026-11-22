@@ -992,7 +992,7 @@ const COURSES_DB = [
         id: "cos101-hardware",
         week: "New Lecture",
         title: "Computer Hardware Components",
-        pdfPath: "pdfs/Hardware components_113648.pdf",
+        pdfPath: "Hardware components_113648.pdf",
         summary: [
           "Introduces computer hardware and the roles of input and output devices.",
           "Covers core components including the CPU, memory, storage, motherboard, and computer ports."
