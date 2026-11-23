@@ -352,6 +352,323 @@ const COURSES_DB = [
             explanation: "The body tag holds the main visual content of an HTML document."
           }
         ]
+      },
+      {
+        id: "csc101-syllabus",
+        week: "Course Syllabus (2026/2027)",
+        title: "CSC 101: Internet Programming I Syllabus & Course Roadmap",
+        pdfPath: "pdfs/kwasu csc 101 syllabus 2026_2027.pdf",
+        summary: [
+          "1. Topic Introduction: KWASU-CSC 101 (Internet Programming I) is a 2-unit core course for first-year B.Sc. and B.Ed. Computer Science students in the 2026/2027 Harmattan Semester, coordinated by Dr. S. R. Yusuff (Lectures hold Wednesdays at ICT LR G from 12 PM to 2 PM for Group A, and ICT LR H from 2 PM to 4 PM for Group B)[cite: 23]. It introduces the foundations of the Internet and World Wide Web alongside practical static front-end web development[cite: 23].",
+          "2. Detailed Lecture Explanations: The 13-week curriculum is structured into three progressive modules[cite: 25, 27]. Module A (Weeks 1 to 2) covers the distinction between the physical Internet infrastructure and the Web service, ARPANET history, Tim Berners-Lee, and client-server request-response communication[cite: 25]. Module B (Weeks 3 to 10) dives deeply into HTML document skeletons, tags, attributes, character entities, text formatting, headings, lists, images, hyperlinks, tables, forms, and semantic HTML[cite: 25, 26, 27]. Module C (Weeks 11 to 13) introduces Cascading Style Sheets (CSS) for visual styling, JavaScript (JS) for DOM interactivity, and culminates in hosting a personal portfolio website[cite: 25, 27].",
+          "3. Important Definitions and Terminology: Internet (the global physical network of interconnected computers) vs. World Wide Web (an information service running on top of the Internet)[cite: 25]; Client-Server Architecture (browsers acting as clients requesting resources from web servers)[cite: 25]; HTML (HyperText Markup Language for page structure)[cite: 23, 25]; CSS (Cascading Style Sheets for presentation and layout)[cite: 23, 25]; JavaScript (client-side scripting for page behavior and interactivity)[cite: 23, 25]; Void Elements (self-closing HTML tags such as the line break element)[cite: 26]; Semantic HTML (meaningful structural tags like header, nav, main, section, article, aside, and footer)[cite: 27].",
+          "4. Examples and Applications: Practical sessions emphasize live coding in Visual Studio Code with Live Server, inspecting elements using Chrome or Firefox DevTools, validating markup with the W3C Markup Validator, and deploying student portfolio projects online via GitHub Pages or free/paid web hosting platforms[cite: 23, 27, 28].",
+          "5. Formulas and Grading Breakdown: Total course evaluation equals 100 marks distributed across five components: Continuous Assessment Test 1 in Week 5 covering Weeks 1 to 4 (5 marks, short answer)[cite: 24, 26]; Regular Classroom and Online Discussions (2 marks)[cite: 24]; Lecture Attendance requiring a minimum of 6 classes (3 marks)[cite: 24]; Continuous Assessment Test 2 in Week 10 covering Weeks 5 to 9 (15 marks, multiple choice)[cite: 24, 27]; Out-of-Classroom Practical Webpage Project due in Week 13 (15 marks)[cite: 24, 27]; and the End-of-Semester Examination (60 marks)[cite: 24].",
+          "6. Important Examination and Policy Points: Attendance is compulsory, and a minimum of 75 percent lecture attendance is a strict prerequisite to sit for the final examination[cite: 28]. Students must arrive within the first hour of lecture (latecomers after one hour are not condoned), mute mobile phones, dress properly with a functioning laptop or mobile device, and ensure official course registration on the KWASU portal so grades are recorded[cite: 28].",
+          "7. Revision Exercises: (a) Distinguish clearly between the Internet and the World Wide Web[cite: 25]. (b) Outline the exact mark distribution for CA Tests, attendance, project, and final exam[cite: 24]. (c) Explain the distinct roles of HTML, CSS, and JavaScript in front-end development[cite: 25]. (d) List the seven semantic HTML layout elements taught in Week 10 and explain their SEO and accessibility benefits[cite: 27]."
+        ],
+        questions: [
+          {
+            q: "How many credit units is KWASU-CSC 101 Internet Programming I worth?",
+            options: ["3 units", "2 units", "4 units", "1 unit"],
+            answer: 1,
+            explanation: "KWASU-CSC 101 is a 2-unit core course for first-year Computer Science students[cite: 23]."
+          },
+          {
+            q: "Who is the Course Lecturer and Coordinator for KWASU-CSC 101 in the 2026/2027 session?",
+            options: ["S. R. Yusuff", "Julie C. Meloni", "Tim Berners-Lee", "Mark J. Collins"],
+            answer: 0,
+            explanation: "The course syllabus lists S. R. Yusuff as the Course Lecturer and Coordinator[cite: 23]."
+          },
+          {
+            q: "When and where do Group A lectures hold for CSC 101?",
+            options: ["Mondays 10 AM to 12 PM at ICT LR H", "Wednesdays 2 PM to 4 PM at ICT LR H", "Wednesdays 12 PM to 2 PM at ICT LR G", "Fridays 10 AM to 12 PM at ICT LR G"],
+            answer: 2,
+            explanation: "Group A meets on Wednesdays at ICT LR G from 12 PM to 2 PM[cite: 23]."
+          },
+          {
+            q: "When and where do Group B lectures hold for CSC 101?",
+            options: ["Wednesdays 12 PM to 2 PM at ICT LR G", "Mondays 10 AM to 12 PM at ICT LR G", "Tuesdays 2 PM to 4 PM at ICT LR H", "Wednesdays 2 PM to 4 PM at ICT LR H"],
+            answer: 3,
+            explanation: "Group B meets on Wednesdays at ICT LR H from 2 PM to 4 PM[cite: 23]."
+          },
+          {
+            q: "What is the minimum lecture attendance percentage required as a prerequisite for taking the CSC 101 examination?",
+            options: ["75 percent", "50 percent", "60 percent", "80 percent"],
+            answer: 0,
+            explanation: "A minimum of 75 percent attendance at lectures is a strict prerequisite for taking examinations[cite: 28]."
+          },
+          {
+            q: "How many marks are allocated to the End-of-Session Examination in CSC 101?",
+            options: ["50 marks", "60 marks", "70 marks", "40 marks"],
+            answer: 1,
+            explanation: "The end-of-session examination carries 60 marks out of the total 100 marks[cite: 24]."
+          },
+          {
+            q: "In which week does the first Continuous Assessment short answer test take place?",
+            options: ["Week 3", "Week 10", "Week 5", "Week 13"],
+            answer: 2,
+            explanation: "The first short answer test takes place in the fifth week of resumption for 5 marks[cite: 24]."
+          },
+          {
+            q: "Which weeks of lecture content are covered in CA Test 1?",
+            options: ["Weeks 5 to 9", "Weeks 10 to 13", "Weeks 1 to 2", "Weeks 1 to 4"],
+            answer: 3,
+            explanation: "CA Test 1 held in Week 5 covers the topics taught during Weeks 1 to 4[cite: 26]."
+          },
+          {
+            q: "How many marks are awarded for the second test held in the tenth week of resumption?",
+            options: ["15 marks", "5 marks", "10 marks", "20 marks"],
+            answer: 0,
+            explanation: "The second test is a multiple-choice test in Week 10 worth 15 marks[cite: 24]."
+          },
+          {
+            q: "Which weeks of lecture content are covered in CA Test 2?",
+            options: ["Weeks 1 to 4", "Weeks 5 to 9", "Weeks 10 to 12", "All 13 weeks"],
+            answer: 1,
+            explanation: "CA Test 2 in Week 10 covers lecture material from Weeks 5 to 9[cite: 27]."
+          },
+          {
+            q: "When is the submission and presentation of the out-of-classroom practical webpage project due?",
+            options: ["Week 5", "Week 10", "Week 13", "Week 9"],
+            answer: 2,
+            explanation: "Submission and presentation of the out-of-classroom project is due by the thirteenth week for 15 marks[cite: 24, 27]."
+          },
+          {
+            q: "What are the three modules that organize the CSC 101 course outline?",
+            options: ["Hardware, Software, Networking", "Python, Java, C Plus Plus", "Databases, Cloud, Security", "Internet Foundations, HTML, CSS and JavaScript Introduction"],
+            answer: 3,
+            explanation: "The syllabus organizes the course into Module A Internet Foundations, Module B HTML, and Module C CSS and JavaScript Introduction[cite: 25]."
+          },
+          {
+            q: "According to Week 1 content, what is the core distinction between the Internet and the World Wide Web?",
+            options: ["The Internet is the physical network while the Web is a service running on it", "They are completely identical terms", "The Web is hardware while the Internet is a browser", "The Internet was invented in 2010 while the Web started in 1969"],
+            answer: 0,
+            explanation: "Week 1 contrasts the Internet as the underlying network versus the World Wide Web as a service running on it[cite: 25]."
+          },
+          {
+            q: "Who is studied in Week 1 as the inventor of the World Wide Web?",
+            options: ["Bill Gates", "Tim Berners-Lee", "Steve Jobs", "Mark Zuckerberg"],
+            answer: 1,
+            explanation: "Week 1 covers ARPANET, Tim Berners-Lee and the invention of the Web, and early browsers[cite: 25]."
+          },
+          {
+            q: "In the web development landscape covered in Week 2, what is the specific role of HTML?",
+            options: ["Styling and colors", "Interactive page behavior", "Document structure", "Database management"],
+            answer: 2,
+            explanation: "Week 2 defines the distinct roles of HTML for structure, CSS for style, and JS for behavior[cite: 25]."
+          },
+          {
+            q: "What is the specific role of CSS in front-end web development?",
+            options: ["Database storage", "Server routing", "Logic execution", "Visual styling and presentation"],
+            answer: 3,
+            explanation: "CSS is responsible for visual style and layout presentation[cite: 23, 25]."
+          },
+          {
+            q: "What is the role of JavaScript alongside HTML and CSS?",
+            options: ["Adding behavior and basic interactivity", "Defining server hardware", "Validating W3C certificates", "Creating network cables"],
+            answer: 0,
+            explanation: "JavaScript adds basic interactivity and dynamic behavior to web pages[cite: 23, 25]."
+          },
+          {
+            q: "Which component of the HTML document skeleton is taught in Week 3 as the very first declaration?",
+            options: ["The body element", "The DOCTYPE html declaration", "The footer element", "The script tag"],
+            answer: 1,
+            explanation: "Week 3 covers the HTML document skeleton starting with DOCTYPE html, followed by html, head, and body[cite: 26]."
+          },
+          {
+            q: "What are self-closing HTML elements such as the line break element called in Week 4?",
+            options: ["Block elements", "Root elements", "Void elements", "Semantic containers"],
+            answer: 2,
+            explanation: "Week 4 introduces opening and closing tags alongside self-closing void elements like the line break tag[cite: 26]."
+          },
+          {
+            q: "How is HTML attribute syntax structured according to Week 4?",
+            options: ["value equals name", "name colon value", "attribute arrow value", "name equals quoted value"],
+            answer: 3,
+            explanation: "Attribute syntax in HTML follows the standard name equals quoted value format[cite: 26]."
+          },
+          {
+            q: "Which HTML character entity is used to represent the ampersand symbol safely in text?",
+            options: ["amp entity", "lt entity", "copy entity", "nbsp entity"],
+            answer: 0,
+            explanation: "Week 4 covers HTML character entities including ampersand, less than, copyright, and non-breaking space[cite: 26]."
+          },
+          {
+            q: "How many levels of HTML heading elements are covered in Week 5 to establish proper page hierarchy?",
+            options: ["3 levels", "6 levels from h1 to h6", "4 levels", "10 levels"],
+            answer: 1,
+            explanation: "Week 5 teaches heading elements h1 through h6 and correct heading hierarchy[cite: 26]."
+          },
+          {
+            q: "Which HTML list type is constructed using dl, dt, and dd elements in Week 6?",
+            options: ["Unordered bulleted list", "Ordered numbered list", "Description or definition list", "Navigation dropdown list"],
+            answer: 2,
+            explanation: "Week 6 covers unordered lists, ordered lists, nested lists, and description or definition lists using dl, dt, and dd[cite: 26]."
+          },
+          {
+            q: "Which two attributes are highlighted as essential for the HTML image element in Week 7?",
+            options: ["href and target", "action and method", "rowspan and colspan", "src and alt"],
+            answer: 3,
+            explanation: "Week 7 covers the img element and its core attributes including src, alt, width, and height[cite: 26]."
+          },
+          {
+            q: "Which element and attribute are used to create hyperlinks in HTML according to Week 7?",
+            options: ["The anchor a element and href attribute", "The img element and src attribute", "The link element and rel attribute", "The form element and action attribute"],
+            answer: 0,
+            explanation: "Hyperlinks are created using the anchor element and the href attribute for internal, external, and relative URLs[cite: 26]."
+          },
+          {
+            q: "In Week 8, which attributes allow HTML table cells to span across multiple rows or columns?",
+            options: ["width and height", "rowspan and colspan", "action and method", "margin and padding"],
+            answer: 1,
+            explanation: "Week 8 teaches table structure alongside rowspan and colspan attributes[cite: 26]."
+          },
+          {
+            q: "What is emphasized in Week 8 regarding the appropriate use of HTML tables?",
+            options: ["Using tables for entire website page layouts", "Avoiding table headers", "Using tables strictly for tabular data rather than page layout", "Using tables instead of CSS"],
+            answer: 2,
+            explanation: "Week 8 contrasts appropriate use of tables for structured data versus inappropriate use for page layout[cite: 26]."
+          },
+          {
+            q: "Which two attributes on the HTML form element control where and how form data is submitted?",
+            options: ["src and alt", "id and class", "width and height", "action and method"],
+            answer: 3,
+            explanation: "Week 9 covers the form element and its action and method attributes[cite: 26]."
+          },
+          {
+            q: "Which form attributes provide basic client-side validation and input hints in Week 9?",
+            options: ["required and placeholder", "rowspan and colspan", "href and target", "bold and italic"],
+            answer: 0,
+            explanation: "Week 9 covers basic form validation attributes including required and placeholder[cite: 26]."
+          },
+          {
+            q: "Which of the following is a semantic HTML element taught in Week 10?",
+            options: ["div", "article", "span", "font"],
+            answer: 1,
+            explanation: "Week 10 introduces semantic elements including header, nav, main, section, article, aside, and footer[cite: 27]."
+          },
+          {
+            q: "Besides document structure and accessibility, what additional benefit of semantic HTML is noted in Week 10?",
+            options: ["Faster internet download speed", "Automatic database creation", "Search Engine Optimization or SEO benefits", "Free web hosting"],
+            answer: 2,
+            explanation: "Week 10 highlights that semantic HTML improves document structure, accessibility, and SEO[cite: 27]."
+          },
+          {
+            q: "What are the three ways to apply CSS to an HTML document covered in Week 11?",
+            options: ["Top, middle, and bottom CSS", "Static, dynamic, and relative CSS", "Local, global, and cloud CSS", "Inline, internal, and external CSS"],
+            answer: 3,
+            explanation: "Week 11 covers inline, internal, and external CSS stylesheets[cite: 27]."
+          },
+          {
+            q: "Which three basic CSS selectors are introduced in Week 11?",
+            options: ["Element, class, and id selectors", "Table, form, and list selectors", "Header, footer, and nav selectors", "Script, link, and meta selectors"],
+            answer: 0,
+            explanation: "Week 11 introduces basic CSS selectors including element, class, and id[cite: 27]."
+          },
+          {
+            q: "What is the standard structure of a CSS rule taught in Week 11?",
+            options: ["property equals value", "selector followed by curly braces containing property colon value", "tag name followed by attributes", "function name followed by parentheses"],
+            answer: 1,
+            explanation: "CSS syntax follows the pattern selector with property colon value inside curly braces[cite: 27]."
+          },
+          {
+            q: "How can JavaScript be embedded into a webpage according to Week 12?",
+            options: ["Only through CSS files", "Using the style tag", "Inline, internal script tag, or external .js file", "Through image alt attributes"],
+            answer: 2,
+            explanation: "Week 12 covers embedding JavaScript inline, via internal script tags, or via an external .js file[cite: 27]."
+          },
+          {
+            q: "What practical DOM interaction example is highlighted in Week 12?",
+            options: ["Formatting a hard drive", "Compiling C code", "Designing a logo in Photoshop", "Changing text on a button click"],
+            answer: 3,
+            explanation: "Week 12 features a simple DOM interaction example such as changing text when a button is clicked[cite: 27]."
+          },
+          {
+            q: "What is the culminating project that each student presents at the end of CSC 101?",
+            options: ["A hosted personal portfolio website", "A mobile banking app", "An operating system kernel", "A hardware motherboard"],
+            answer: 0,
+            explanation: "The class concludes with each student presenting a portfolio website hosted on the web[cite: 27]."
+          },
+          {
+            q: "Which primary code editor is recommended in the digital tools section of the syllabus?",
+            options: ["Microsoft Word", "Visual Studio Code with Live Server", "Adobe Photoshop", "Notepad only"],
+            answer: 1,
+            explanation: "Visual Studio Code with a live-reload extension such as Live Server is recommended as the primary code editor[cite: 28]."
+          },
+          {
+            q: "Which tool is recommended in the syllabus for checking the validity of submitted HTML code?",
+            options: ["GitHub Desktop", "Chrome Incognito", "W3C Markup Validator", "Microsoft Excel"],
+            answer: 2,
+            explanation: "The W3C Markup Validator is listed for checking the validity of submitted HTML[cite: 28]."
+          },
+          {
+            q: "Which optional hosting platform is listed in the syllabus for publishing and sharing student webpage projects?",
+            options: ["Dropbox", "Google Drive", "WhatsApp", "GitHub Pages"],
+            answer: 3,
+            explanation: "GitHub Pages is listed as an optional platform for publishing and sharing student webpage projects[cite: 28]."
+          },
+          {
+            q: "How many marks are allocated to attendance in CSC 101, and what is the minimum class requirement?",
+            options: ["3 marks for a minimum of 6 classes", "5 marks for 10 classes", "10 marks for 4 classes", "2 marks for 8 classes"],
+            answer: 0,
+            explanation: "A minimum of 6 classes attended earns 3 marks in the assessment breakdown[cite: 24]."
+          },
+          {
+            q: "How many marks are awarded for regular participation in classroom and online discussions?",
+            options: ["5 marks", "2 marks", "3 marks", "10 marks"],
+            answer: 1,
+            explanation: "Classroom discussions during classroom interactions and online meetings carry 2 marks[cite: 24]."
+          },
+          {
+            q: "When are the Course Lecturer's office hours scheduled?",
+            options: ["Wednesdays 12 PM to 2 PM", "Fridays 2 PM to 4 PM", "Mondays 10 AM to 12 PM", "Tuesdays 8 AM to 10 AM"],
+            answer: 2,
+            explanation: "Office hours hold on Mondays from 10 AM to 12 PM[cite: 23]."
+          },
+          {
+            q: "What is the syllabus policy regarding students arriving late to CSC 101 lectures?",
+            options: ["Latecomers are always welcomed at any time", "Students can arrive 90 minutes late", "Attendance is not taken", "Late coming an hour after lecture commencement is not condoned"],
+            answer: 3,
+            explanation: "Late coming to class an hour after the commencement of lecture will not be condoned[cite: 28]."
+          },
+          {
+            q: "What prerequisite courses are required before enrolling in KWASU-CSC 101?",
+            options: ["None, prerequisites are not applicable", "CSC 102 and MAT 101", "PHY 101", "COS 101"],
+            answer: 0,
+            explanation: "The syllabus states that prerequisites and co-requisites are Not Applicable for CSC 101[cite: 23]."
+          },
+          {
+            q: "In client-server architecture taught in Week 2, what acts as the client?",
+            options: ["The web server", "The web browser", "The Ethernet cable", "The CSS file"],
+            answer: 1,
+            explanation: "Week 2 explains client-server architecture where browsers act as clients communicating with web servers[cite: 25]."
+          },
+          {
+            q: "Which learning model in the syllabus involves students reviewing pre-class tutorials so class time is reserved for hands-on practice?",
+            options: ["Pure dictation", "Flipped or blended learning", "Correspondence study", "Exam-only evaluation"],
+            answer: 1,
+            explanation: "Flipped or blended learning uses short pre-class tutorials like MDN Web Docs so class time is spent on hands-on practice[cite: 27]."
+          },
+          {
+            q: "What target score is set in Learning Objective 1 for the Week 2 quiz on Internet history and client-server architecture?",
+            options: ["At least 70 percent", "At least 50 percent", "At least 90 percent", "At least 40 percent"],
+            answer: 0,
+            explanation: "Learning Objective 1 specifies scoring at least 70 percent on a related quiz by Week 2[cite: 24]."
+          },
+          {
+            q: "What target score is set in Learning Objective 6 for the final JavaScript practical assessment?",
+            options: ["At least 80 percent", "At least 60 percent", "At least 75 percent", "At least 50 percent"],
+            answer: 1,
+            explanation: "Learning Objective 6 specifies scoring at least 60 percent on the final JavaScript practical assessment[cite: 24]."
+          },
+          {
+            q: "What administrative requirement must a student fulfill on the KWASU portal for their CSC 101 grades to be recorded?",
+            options: ["Download VS Code", "Create a GitHub account", "Officially register for the course on the KWASU portal", "Submit a printed photo"],
+            answer: 2,
+            explanation: "Only students who officially registered for the course on the KWASU portal will have their grades recorded[cite: 28]."
+          }
+        ]
       }
     ]
   },
