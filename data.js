@@ -997,10 +997,309 @@ const COURSES_DB = [
           "Introduces computer hardware and the roles of input and output devices.",
           "Covers core components including the CPU, memory, storage, motherboard, and computer ports."
         ],
-        questions: [
-          // TODO: Add your CBT questions for this PDF here.
-          // Keep each question in the same format as the existing questions above.
-        ]
+        questions: 
+          [
+  {
+    q: "What is considered the brain of a computer where calculations and work occur?",
+    options: ["CPU", "Hard Drive", "RAM", "Power Supply"],
+    answer: 0,
+    explanation: "The Central Processing Unit or processor is the brain of a computer, measuring about 1.5 inches by 1.5 inches[cite: 7]."
+  },
+  {
+    q: "Which type of memory is volatile and loses its stored data when the computer is shut down or rebooted?",
+    options: ["ROM", "RAM", "Hard Drive", "Cache Level 2"],
+    answer: 1,
+    explanation: "RAM or Random Access Memory is temporary volatile memory that clears automatically upon shutdown[cite: 9]."
+  },
+  {
+    q: "Which component gives your computer power by converting alternating current to direct current?",
+    options: ["Transformer", "Inverter", "Power Supply", "Motherboard"],
+    answer: 2,
+    explanation: "The power supply converts wall alternating current to direct current for internal parts[cite: 12]."
+  },
+  {
+    q: "What is the primary function of a motherboard in a computer system?",
+    options: ["To store permanent files", "To supply electric backup", "To cool the processor", "To allow the CPU to interact with other parts of the computer"],
+    answer: 3,
+    explanation: "A motherboard is a circuit board that connects the CPU to all other internal computer parts[cite: 9]."
+  },
+  {
+    q: "Which port was traditionally used to connect older mice, modems, and digital cameras using a 9-pin connector?",
+    options: ["Serial Port", "Parallel Port", "USB Port", "Ethernet Port"],
+    answer: 0,
+    explanation: "The serial port uses a 9-pin connector, often gray in color, and transmits data at 19 kilobits per second[cite: 10]."
+  },
+  {
+    q: "What type of connector do PCs usually use for monitor ports, featuring 15 pins across three rows and typically colored blue?",
+    options: ["DVI", "VGA or Video Graphics Array", "HDMI", "Firewire"],
+    answer: 1,
+    explanation: "PCs usually use a VGA analog connector known as a D-Sub connector with 15 pins in three rows[cite: 10]."
+  },
+  {
+    q: "Which port is most often used to connect a printer to the computer via a 25-pin pink connector?",
+    options: ["Serial Port", "USB Port", "Parallel Port", "PS2 Port"],
+    answer: 2,
+    explanation: "The parallel port is a 25-pin long and skinny connector, often pink, transmitting at 50 to 100 kilobits per second[cite: 10]."
+  },
+  {
+    q: "Which universal port connects almost all modern peripheral devices and transmits at high speeds like 480 megabits per second in version 2.0?",
+    options: ["Serial Port", "Parallel Port", "Firewire Port", "USB Port"],
+    answer: 3,
+    explanation: "The Universal Serial Bus connects almost all peripheral devices with speeds up to 480 megabits per second for USB 2.0[cite: 11]."
+  },
+  {
+    q: "Which port is frequently found on Apple computers and often used with digital camcorders?",
+    options: ["Firewire or IEEE 1394 Port", "Parallel Port", "VGA Port", "PS2 Port"],
+    answer: 0,
+    explanation: "Firewire or IEEE 1394 is commonly found on Apple computers and used with digital camcorders[cite: 11]."
+  },
+  {
+    q: "What is the PS2 port sometimes referred to as, having been developed by IBM to connect mice and keyboards?",
+    options: ["Modem port", "Mouse port", "Printer port", "Display port"],
+    answer: 1,
+    explanation: "The PS2 port is sometimes called a mouse port and is used to connect a computer mouse or keyboard[cite: 11]."
+  },
+  {
+    q: "Which port is used for networking and fast internet connections, featuring little monitor lights that flicker when in use?",
+    options: ["Serial Port", "Parallel Port", "Ethernet Port", "USB Port"],
+    answer: 2,
+    explanation: "The Ethernet port is used for networking and fast internet connections with status flicker lights[cite: 11]."
+  },
+  {
+    q: "What is the main function of a computer fan?",
+    options: ["To generate power", "To read optical discs", "To connect to the internet", "To keep your computer cool and prevent overheating"],
+    answer: 3,
+    explanation: "A fan keeps your computer cool so it does not overheat and damage internal parts[cite: 13]."
+  },
+  {
+    q: "What component is used to disperse heat produced inside the computer by the CPU and other parts by increasing surface area?",
+    options: ["Heatsink", "Capacitor", "Resistor", "Transistor"],
+    answer: 0,
+    explanation: "A heatsink disperses heat by increasing surface area around hot components like the CPU[cite: 13]."
+  },
+  {
+    q: "What are the three main components of a computer system?",
+    options: ["Monitor, Keyboard, and Mouse", "CPU, Memory, and Input Output Devices", "Hard Drive, RAM, and ROM", "Motherboard, Power Supply, and Fan"],
+    answer: 1,
+    explanation: "The three main components of a computer are the CPU, Memory, and Input Output Devices[cite: 13]."
+  },
+  {
+    q: "What do capacitors do on a circuit board?",
+    options: ["Allow current through", "Act as a valve to turn currents on or off", "Store energy", "Convert alternating current to direct current"],
+    answer: 2,
+    explanation: "Capacitors are small parts on circuit boards that store electrical energy[cite: 13]."
+  },
+  {
+    q: "What is the function of a resistor in electronic circuits?",
+    options: ["To store energy", "To turn current on and off like a valve", "To amplify sound", "To allow a specific current through"],
+    answer: 3,
+    explanation: "Resistors allow a controlled current through the circuit[cite: 13]."
+  },
+  {
+    q: "What acts as a valve which allows electrical currents to be turned on or off?",
+    options: ["Transistor", "Capacitor", "Resistor", "Heatsink"],
+    answer: 0,
+    explanation: "A transistor functions as an electronic valve that allows currents to be turned on or off[cite: 13]."
+  },
+  {
+    q: "What is the enclosure that contains your motherboard, CPU, and internal components called when standing upright?",
+    options: ["Chassis", "Tower or Case", "Console", "Cabinet"],
+    answer: 1,
+    explanation: "The case or tower if standing upright is what houses the motherboard, CPU, and other internals[cite: 13]."
+  },
+  {
+    q: "Which expansion card is used to input and output sound under program control with enhanced quality?",
+    options: ["Graphics Card", "Network Card", "Sound Card", "Modem Card"],
+    answer: 2,
+    explanation: "A sound card provides better sound quality than standard built-in sound controls[cite: 12]."
+  },
+  {
+    q: "Which expansion card is used to convert the logical representation of an image to a signal for a monitor?",
+    options: ["Sound Card", "Network Card", "Modem Card", "Graphics Card"],
+    answer: 3,
+    explanation: "A graphics card converts logical image representations into monitor display signals[cite: 12]."
+  },
+  {
+    q: "Which expansion card is used to provide a computer connection over a network at speeds like 10, 100, or 1000 megabits per second?",
+    options: ["Network Card", "Sound Card", "Graphics Card", "Video Capture Card"],
+    answer: 0,
+    explanation: "A network card provides wired connectivity over local networks[cite: 12]."
+  },
+  {
+    q: "What does ROM stand for, providing permanent nonvolatile storage for firmware like the BIOS?",
+    options: ["Random Operations Module", "Read Only Memory", "Rapid Online Media", "Remote Operating Mechanism"],
+    answer: 1,
+    explanation: "ROM stands for Read Only Memory, which is nonvolatile and retains data without power[cite: 9]."
+  },
+  {
+    q: "Where is the BIOS or Basic Input Output System stored in standard PC architecture?",
+    options: ["RAM", "Cache memory", "CMOS Read Only Memory", "Hard drive sectors"],
+    answer: 2,
+    explanation: "The BIOS is stored in CMOS read-only memory chips[cite: 9]."
+  },
+  {
+    q: "What is the primary purpose of a hard drive in a computer system?",
+    options: ["To hold temporary runtime instructions", "To supply direct current power", "To cool the CPU processor", "To store information permanently and frequently"],
+    answer: 3,
+    explanation: "A hard drive is nonvolatile secondary storage used to store information permanently most frequently[cite: 9]."
+  },
+  {
+    q: "Which device is used to read CD-ROMs, and if capable of writing, is referred to as a burner or CD-RW?",
+    options: ["CD-ROM", "Floppy Drive", "DVD-ROM", "Hard Disk"],
+    answer: 0,
+    explanation: "A CD-ROM device reads compact discs, and writers are called CD-RW burners[cite: 13]."
+  },
+  {
+    q: "What is a device used to read and write to floppy diskettes called?",
+    options: ["CD-ROM drive", "Floppy Drive", "DVD burner", "Flash drive"],
+    answer: 1,
+    explanation: "A floppy drive reads and writes to magnetic floppy diskettes[cite: 13]."
+  },
+  {
+    q: "What do Input Output devices allow you to do in computer hardware terminology?",
+    options: ["Store permanent backups", "Cool down the processor", "Send information to or get information from the computer", "Supply electrical current"],
+    answer: 2,
+    explanation: "Input Output devices allow sending information to the computer or getting information from it[cite: 7]."
+  },
+  {
+    q: "Which of the following is listed as an input device in the computer basics notes?",
+    options: ["Monitor", "Printer", "Speaker", "Scanner"],
+    answer: 3,
+    explanation: "A scanner is listed as an input device along with digital cameras and trackballs[cite: 7]."
+  },
+  {
+    q: "What is the approximate physical size of a standard Central Processing Unit?",
+    options: ["1.5 inches by 1.5 inches", "3.0 inches by 3.0 inches", "0.5 inches by 0.5 inches", "5.0 inches by 5.0 inches"],
+    answer: 0,
+    explanation: "The CPU processor is approximately 1.5 inches by 1.5 inches in physical dimension[cite: 7]."
+  },
+  {
+    q: "Why is information kept in fast temporary memory rather than accessed directly from the hard drive?",
+    options: ["Because hard drives have no storage space", "Because accessing the hard drive for information takes time while memory is fast", "Because RAM is permanent", "Because hard drives require no power"],
+    answer: 1,
+    explanation: "Accessing the hard drive takes time, so memory provides fast temporary storage for active execution[cite: 7]."
+  },
+  {
+    q: "Which type of memory includes Physical RAM and Virtual Memory under temporary storage areas?",
+    options: ["ROM", "CMOS", "RAM", "BIOS"],
+    answer: 2,
+    explanation: "RAM includes physical RAM and virtual memory as temporary storage areas[cite: 7, 8]."
+  },
+  {
+    q: "Which storage device category includes ROM BIOS, removable drives, network storage, and hard drives?",
+    options: ["Temporary Storage Areas", "Input Sources", "Peripheral Ports", "Permanent Storage Areas"],
+    answer: 3,
+    explanation: "ROM BIOS, removable drives, network storage, and hard drives are permanent storage areas[cite: 7, 8]."
+  },
+  {
+    q: "Which of the following is classified under input sources in the hardware architecture diagram?",
+    options: ["Keyboard", "Monitor", "Speaker", "Hard Drive"],
+    answer: 0,
+    explanation: "Keyboards, mice, and removable media are input sources[cite: 7, 8]."
+  },
+  {
+    q: "What data transmission speed does USB 1.1 achieve at full speed?",
+    options: ["1.5 megabits per second", "12 megabits per second", "480 megabits per second", "3.2 gigabits per second"],
+    answer: 1,
+    explanation: "USB 1.1 transmits data at 1.5 megabits per second at low speed and 12 megabits per second at full speed[cite: 11]."
+  },
+  {
+    q: "What speed does USB 2.0 transmit data at?",
+    options: ["12 megabits per second", "100 megabits per second", "480 megabits per second", "3.2 gigabits per second"],
+    answer: 2,
+    explanation: "USB 2.0 transmits data at 480 megabits per second[cite: 11]."
+  },
+  {
+    q: "What data transmission speed does the new Firewire 1394B achieve?",
+    options: ["400 megabits per second", "19 kilobits per second", "50 kilobits per second", "3.2 gigabits per second"],
+    answer: 3,
+    explanation: "Firewire 1394B transmits data at 3.2 gigabits per second[cite: 11]."
+  },
+  {
+    q: "What speed does original Firewire transmit data at?",
+    options: ["400 megabits per second", "480 megabits per second", "12 megabits per second", "1000 megabits per second"],
+    answer: 0,
+    explanation: "Firewire transmits data at 400 megabits per second[cite: 11]."
+  },
+  {
+    q: "At what data speeds do Ethernet ports and network cards operate depending on hardware support?",
+    options: ["10 megabits per second only", "10, 100, or 1000 megabits", "400 megabits per second fixed", "480 megabits per second"],
+    answer: 1,
+    explanation: "Ethernet ports operate at 10 megabits, 100 megabits, or 1 gigabit which is 1000 megabits[cite: 11]."
+  },
+  {
+    q: "What data transfer rate does a parallel port transmit at?",
+    options: ["19 kilobits per second", "400 megabits per second", "50 to 100 kilobits per second", "480 megabits per second"],
+    answer: 2,
+    explanation: "A parallel port transmits data at 50 to 100 kilobits per second[cite: 10]."
+  },
+  {
+    q: "What data transfer rate does a serial port transmit at?",
+    options: ["50 kilobits per second", "480 megabits per second", "1.5 megabits per second", "19 kilobits per second"],
+    answer: 3,
+    explanation: "A serial port transmits data at 19 kilobits per second[cite: 10]."
+  },
+  {
+    q: "What does DVD stand for in optical drive terminology?",
+    options: ["Digital Versatile Disc", "Digital Video Device", "Data Visual Drive", "Direct Virtual Disk"],
+    answer: 0,
+    explanation: "DVD stands for Digital Versatile Disc[cite: 13]."
+  },
+  {
+    q: "What is the primary function of the CPU regarding system instructions?",
+    options: ["Storing files permanently", "Coordinates all actions and executes program instructions", "Converting alternating current to direct current", "Displaying pixels on a monitor"],
+    answer: 1,
+    explanation: "The CPU coordinates all actions that occur in the system and executes program instructions[cite: 13]."
+  },
+  {
+    q: "Which component is described as being nonvolatile, meaning data is not lost when power is removed?",
+    options: ["RAM", "Cache Level 1", "ROM and Hard Drive", "CPU Register"],
+    answer: 2,
+    explanation: "ROM and hard drives are nonvolatile storage where data is retained without power[cite: 9]."
+  },
+  {
+    q: "What is the primary difference between a CD-ROM and a CD-RW burner?",
+    options: ["CD-RW can only read discs", "CD-ROM has higher storage capacity", "CD-ROM is volatile", "CD-RW is capable of writing data to the disc in addition to reading"],
+    answer: 3,
+    explanation: "If capable of writing to the disc, optical drives are referred to as burners or CD-RW and DVD-RW[cite: 13]."
+  },
+  {
+    q: "Which connector standard was developed because VGA analog connectors do not support digital monitors directly?",
+    options: ["DVI or Digital Video Interface", "USB", "Parallel", "PS2"],
+    answer: 0,
+    explanation: "The DVI or Digital Video Interface standard was developed to support digital monitors[cite: 10]."
+  },
+  {
+    q: "What is the color and pin configuration typically associated with a PC parallel port?",
+    options: ["15-pin, blue", "25-pin, pink", "9-pin, gray", "8-pin, yellow"],
+    answer: 1,
+    explanation: "The parallel port has a 25-pin connector and is often pink in color[cite: 10]."
+  },
+  {
+    q: "What color and pin count is typically associated with an older serial port?",
+    options: ["25-pin, pink", "15-pin, blue", "9-pin, gray", "8-pin, yellow"],
+    answer: 2,
+    explanation: "The serial port is a 9-pin connector, small and short, often gray in color[cite: 10]."
+  },
+  {
+    q: "Which of the following components is classified as temporary storage in the memory hierarchy diagram?",
+    options: ["Hard Drive", "ROM and BIOS", "Removable Drives", "CPU Register, Cache, and RAM"],
+    answer: 3,
+    explanation: "CPU Register, Cache Level 1 and 2, and RAM Physical and Virtual are temporary storage areas[cite: 7, 8]."
+  },
+  {
+    q: "What role do Input Output devices play in a computer system?",
+    options: ["Allow you to send information to or get information from the computer", "Convert alternating current to direct current", "House the motherboard", "Cool down internal parts"],
+    answer: 0,
+    explanation: "Input Output devices allow sending information to the computer or getting information from it[cite: 7]."
+  },
+  {
+    q: "What is the primary purpose of expansion cards in a computer system?",
+    options: ["To supply electrical power", "To add or improve functionality to the computer", "To act as system RAM", "To store permanent backups"],
+    answer: 1,
+    explanation: "Expansion cards like sound, graphics, and network cards are used to add or improve functionality to the computer[cite: 12]."
+  }
+]
       }
     ]
   },
@@ -1700,10 +1999,308 @@ const COURSES_DB = [
           "Lecture material on quadratic equations. Add a more detailed summary after reviewing the note."
         ],
         questions: [
-          // TODO: Add your CBT questions for this PDF here.
-          // Keep each question in the same format as the existing questions above.
-        ]
-      }
+  {
+    q: "What defines the general standard form of a quadratic equation?",
+    options: ["ax squared plus bx plus c equals zero where a does not equal zero", "ax plus b equals zero", "ax cubed plus bx squared equals zero", "ax plus b over cx plus d equals zero"],
+    answer: 0,
+    explanation: "The standard form of a quadratic equation is ax squared plus bx plus c equals zero where a does not equal zero[cite: 12]."
+  },
+  {
+    q: "Why is an equation called quadratic?",
+    options: ["Because it has two variables", "Because the highest power of the unknown variable is 2", "Because it has two solutions always", "Because its discriminant is 2"],
+    answer: 1,
+    explanation: "The name quadratic comes from the fact that the highest power of the unknown variable is 2[cite: 12]."
+  },
+  {
+    q: "What is the factorised form of a quadratic equation with roots alpha and beta?",
+    options: ["a times x squared plus bx plus c equals zero", "a times x plus alpha times x plus beta equals zero", "a times x minus alpha times x minus beta equals zero", "x squared minus alpha plus beta equals zero"],
+    answer: 2,
+    explanation: "The factorised form is expressed as a times x minus alpha times x minus beta equals zero[cite: 12]."
+  },
+  {
+    q: "What is the completing the square form of a quadratic equation?",
+    options: ["a times x plus h squared plus k equals zero", "ax squared plus bx equals zero", "x minus alpha times x minus beta equals zero", "ax plus b equals zero"],
+    answer: 3,
+    explanation: "The completing the square form is written as a times x plus h squared plus k equals zero[cite: 12]."
+  },
+  {
+    q: "What is the quadratic formula used to find the roots of ax squared plus bx plus c equals zero?",
+    options: ["x equals negative b plus or minus square root of b squared minus 4ac all over 2a", "x equals b plus or minus square root of b squared plus 4ac over a", "x equals negative b plus 4ac over 2a", "x equals 2a over negative b plus or minus square root of b squared minus 4ac"],
+    answer: 0,
+    explanation: "The quadratic formula is x equals negative b plus or minus square root of b squared minus 4ac all over 2a[cite: 14]."
+  },
+  {
+    q: "What does the discriminant of a quadratic equation represented as Delta equal?",
+    options: ["b squared plus 4ac", "b squared minus 4ac", "4ac minus b squared", "2ac minus b"],
+    answer: 1,
+    explanation: "The discriminant is given by Delta equals b squared minus 4ac[cite: 15]."
+  },
+  {
+    q: "If the discriminant Delta is greater than zero, what type of roots does the quadratic equation have?",
+    options: ["Two distinct real roots", "One real repeated root", "Two complex roots", "No roots at all"],
+    answer: 2,
+    explanation: "When Delta is greater than zero, the quadratic equation has two distinct real roots[cite: 15]."
+  },
+  {
+    q: "If the discriminant Delta is equal to zero, what can be said about the roots?",
+    options: ["Two distinct real roots", "Two complex roots", "No real solutions", "One real repeated root"],
+    answer: 3,
+    explanation: "When Delta equals zero, the quadratic equation has one real repeated root[cite: 15]."
+  },
+  {
+    q: "If the discriminant Delta is less than zero, what type of roots exist?",
+    options: ["Two complex roots", "Two distinct real roots", "One real repeated root", "Zero roots"],
+    answer: 0,
+    explanation: "When Delta is less than zero, the quadratic equation yields two complex roots[cite: 15]."
+  },
+  {
+    q: "What is the sum of the roots alpha plus beta for a quadratic equation ax squared plus bx plus c equals zero?",
+    options: ["c over a", "negative b over a", "b over a", "negative c over a"],
+    answer: 1,
+    explanation: "The sum of the roots is given by negative b over a[cite: 15]."
+  },
+  {
+    q: "What is the product of the roots alpha times beta for a quadratic equation ax squared plus bx plus c equals zero?",
+    options: ["negative b over a", "negative c over a", "c over a", "b over a"],
+    answer: 2,
+    explanation: "The product of the roots is given by c over a[cite: 15]."
+  },
+  {
+    q: "How do you form a quadratic equation when given the sum of roots S and product of roots P?",
+    options: ["x squared plus Sx plus P equals zero", "x squared plus Sx minus P equals zero", "x squared minus Px plus S equals zero", "x squared minus Sx plus P equals zero"],
+    answer: 3,
+    explanation: "A quadratic equation formed from roots given sum S and product P is x squared minus Sx plus P equals zero[cite: 16]."
+  },
+  {
+    q: "What shape does the graph of a quadratic function y equals ax squared plus bx plus c form?",
+    options: ["A parabola", "A straight line", "A circle", "A hyperbola"],
+    answer: 0,
+    explanation: "The graph of a quadratic equation is a parabola[cite: 15]."
+  },
+  {
+    q: "On a graphical representation, where are the roots of a quadratic equation located?",
+    options: ["At the y-intercepts", "At the x-intercepts", "At the origin", "At the vertex only"],
+    answer: 1,
+    explanation: "The roots of a quadratic equation are represented by the x-intercepts of its parabola graph[cite: 15]."
+  },
+  {
+    q: "What is the first step when solving a quadratic equation by completing the square?",
+    options: ["Move the constant term to the right hand side", "Add b over 2 squared to both sides", "Make the coefficient of x squared equal to 1", "Take the square root of both sides"],
+    answer: 2,
+    explanation: "The first step in completing the square is to make the coefficient of x squared equal to 1[cite: 14]."
+  },
+  {
+    q: "In the method of completing the square, what expression is added to both sides after making the x squared coefficient 1 and moving the constant?",
+    options: ["b squared over 4a", "b over a squared", "2b squared", "b over 2 squared"],
+    answer: 3,
+    explanation: "You add b over 2 squared to both sides of the equation[cite: 14]."
+  },
+  {
+    q: "Solve by factorisation: x squared plus 7x plus 12 equals zero. What are the values of x?",
+    options: ["negative 3 and negative 4", "3 and 4", "negative 2 and negative 6", "1 and 12"],
+    answer: 0,
+    explanation: "Factorising x squared plus 7x plus 12 gives x plus 3 times x plus 4 equals zero, yielding roots negative 3 and negative 4[cite: 13]."
+  },
+  {
+    q: "Solve the quadratic equation x squared plus 6x minus 7 equals zero by completing the square.",
+    options: ["x equals 2 and negative 7", "x equals 1 and negative 7", "x equals negative 1 and 7", "x equals 3 and negative 3"],
+    answer: 1,
+    explanation: "Completing the square yields x plus 3 squared equals 16, resulting in x equals 1 and negative 7[cite: 14]."
+  },
+  {
+    q: "Find the sum and product of the roots for the quadratic equation 4x squared minus 5x plus 2 equals zero.",
+    options: ["Sum is 2 and product is 5 over 4", "Sum is negative 5 over 4 and product is 2", "Sum is 5 over 4 and product is 1 over 2", "Sum is 1 over 2 and product is 5 over 4"],
+    answer: 2,
+    explanation: "Using coefficients a equals 4, b equals negative 5, c equals 2, sum is negative b over a which is 5 over 4, and product is c over a equals 2 over 4 equals 1 over 2[cite: 16]."
+  },
+  {
+    q: "Form a quadratic equation whose roots are 3 and 5.",
+    options: ["x squared minus 8x minus 15 equals zero", "x squared plus 8x plus 15 equals zero", "x squared plus 8x minus 15 equals zero", "x squared minus 8x plus 15 equals zero"],
+    answer: 3,
+    explanation: "Sum S equals 3 plus 5 equals 8, Product P equals 3 times 5 equals 15, yielding x squared minus 8x plus 15 equals zero[cite: 16]."
+  },
+  {
+    q: "Form a quadratic equation whose roots are negative 2 and negative 4.",
+    options: ["x squared plus 6x plus 8 equals zero", "x squared minus 6x plus 8 equals zero", "x squared plus 6x minus 8 equals zero", "x squared minus 6x minus 8 equals zero"],
+    answer: 0,
+    explanation: "Sum S equals negative 6, Product P equals 8, leading to x squared plus 6x plus 8 equals zero[cite: 16]."
+  },
+  {
+    q: "The product of two consecutive integers is 156. What are the integers?",
+    options: ["10 and 11", "12 and 13 or negative 13 and negative 12", "13 and 14", "negative 11 and negative 10"],
+    answer: 1,
+    explanation: "Let integers be n and n plus 1. Solving n squared plus n minus 156 equals zero gives 12 and 13 or negative 13 and negative 12."
+  },
+  {
+    q: "Solve the quadratic equation 9x squared plus 9x plus 2 equals zero.",
+    options: ["negative 1 over 3 and negative 1 over 2", "1 over 3 and 1 over 2", "negative 2 and negative 9", "2 and 9"],
+    answer: 2,
+    explanation: "Factorising or using the formula yields roots negative 1 over 3 and negative 1 over 2."
+  },
+  {
+    q: "Solve the quadratic equation 2x squared plus 7x minus 4 equals zero.",
+    options: ["x equals 1 and 4", "x equals negative 1 and negative 4", "x equals 2 and negative 2", "x equals 1 over 2 and negative 4"],
+    answer: 3,
+    explanation: "Applying the formula or factorisation gives roots 1 over 2 and negative 4."
+  },
+  {
+    q: "Solve the quadratic equation 3x squared minus 12x equals zero.",
+    options: ["x equals 0 and 4", "x equals 3 and 12", "x equals negative 4 and 0", "x equals 0 and negative 4"],
+    answer: 0,
+    explanation: "Factoring 3x out gives 3x times x minus 4 equals zero, so x equals 0 and 4."
+  },
+  {
+    q: "Solve the quadratic equation 5x squared plus 30x plus 45 equals zero.",
+    options: ["x equals 3", "x equals negative 3 as a repeated root", "x equals 5 and 6", "x equals negative 5"],
+    answer: 1,
+    explanation: "Dividing by 5 gives x squared plus 6x plus 9 equals zero, which is x plus 3 squared equals zero, giving negative 3 as a repeated root."
+  },
+  {
+    q: "What are the sum and product of the roots for the quadratic equation 2x squared minus 8x plus 6 equals zero?",
+    options: ["Sum is 3 and product is 4", "Sum is negative 4 and product is 3", "Sum is 4 and product is 3", "Sum is 3 and product is negative 4"],
+    answer: 2,
+    explanation: "Sum equals negative negative 8 over 2 equals 4, and product equals 6 over 2 equals 3."
+  },
+  {
+    q: "A rectangular field has a length 5 meters more than its width. If the area is 84 square meters, what is its width?",
+    options: ["12 meters", "5 meters", "14 meters", "7 meters"],
+    answer: 3,
+    explanation: "Width w times w plus 5 equals 84 gives w squared plus 5w minus 84 equals zero, yielding width equal to 7 meters."
+  },
+  {
+    q: "For the quadratic equation 3x squared minus 5x plus 2 equals zero, what is the value of the discriminant?",
+    options: ["1", "25", "24", "0"],
+    answer: 0,
+    explanation: "Discriminant Delta equals b squared minus 4ac equals negative 5 squared minus 4 times 3 times 2 equals 25 minus 24 equals 1[cite: 15]."
+  },
+  {
+    q: "What condition must coefficient a satisfy in the general quadratic equation ax squared plus bx plus c equals zero?",
+    options: ["a equals zero", "a does not equal zero", "a is greater than b", "a is a positive integer"],
+    answer: 1,
+    explanation: "By definition of quadratic equations, a cannot equal zero[cite: 12]."
+  },
+  {
+    q: "If the roots of a quadratic equation are equal, what is the value of its discriminant?",
+    options: ["Greater than zero", "Less than zero", "Equal to zero", "Equal to one"],
+    answer: 2,
+    explanation: "Equal roots mean the discriminant Delta equals zero[cite: 15]."
+  },
+  {
+    q: "When solving 3x squared minus 5x plus 2 equals zero using the quadratic formula, what are the two calculated values of x?",
+    options: ["1 and 2", "0 and 1", "negative 1 and 1 over 3", "1 and 2 over 3"],
+    answer: 3,
+    explanation: "Applying the quadratic formula with Delta equals 1 gives x equals 5 plus or minus 1 over 6, yielding 1 and 2 over 3[cite: 15]."
+  },
+  {
+    q: "In completing the square for x squared plus 6x minus 7 equals zero, what constant term is added to both sides?",
+    options: ["9", "6", "3", "36"],
+    answer: 0,
+    explanation: "Half of 6 is 3, and 3 squared is 9[cite: 14]."
+  },
+  {
+    q: "What is the factored form of x squared minus x minus 6 equals zero?",
+    options: ["x plus 2 times x minus 3 equals zero", "x minus 2 times x plus 3 equals zero", "x minus 2 times x minus 3 equals zero", "x plus 2 times x plus 3 equals zero"],
+    answer: 1,
+    explanation: "Factors of negative 6 that add to negative 1 are negative 3 and 2, yielding x minus 3 times x plus 2 equals zero[cite: 13]."
+  },
+  {
+    q: "What are the roots of the equation x squared minus x minus 6 equals zero?",
+    options: ["2 and 3", "negative 2 and negative 3", "negative 2 and 3", "1 and 6"],
+    answer: 2,
+    explanation: "Setting factors to zero gives x equals negative 2 and x equals 3[cite: 13]."
+  },
+  {
+    q: "If a quadratic equation has complex roots, what does its graph look like relative to the x-axis?",
+    options: ["It intersects the x-axis twice", "It is tangent to the x-axis at one point", "It lies entirely above or below the x-axis and has no x-intercepts", "It is a vertical line"],
+    answer: 3,
+    explanation: "Complex roots mean no real x-intercepts, so the parabola never touches or crosses the x-axis[cite: 15]."
+  },
+  {
+    q: "What is the sum of roots for the equation 3x squared plus 12x minus 15 equals zero?",
+    options: ["negative 4", "4", "5", "negative 5"],
+    answer: 0,
+    explanation: "Sum equals negative b over a equals negative 12 over 3 equals negative 4[cite: 15]."
+  },
+  {
+    q: "What is the product of roots for the equation 3x squared plus 12x minus 15 equals zero?",
+    options: ["4", "negative 5", "5", "12"],
+    answer: 1,
+    explanation: "Product equals c over a equals negative 15 over 3 equals negative 5[cite: 15]."
+  },
+  {
+    q: "Which method relies on expressing a quadratic equation as a product of two linear expressions?",
+    options: ["Completing the square", "Quadratic formula", "Factorisation", "Graphical method"],
+    answer: 2,
+    explanation: "Factorisation involves writing the quadratic expression as a product of two linear factors[cite: 12]."
+  },
+  {
+    q: "If the roots of a quadratic equation are alpha equals 2 and beta equals negative 4, what is their sum?",
+    options: ["2", "6", "negative 8", "negative 2"],
+    answer: 3,
+    explanation: "Sum equals 2 plus negative 4 equals negative 2[cite: 16]."
+  },
+  {
+    q: "If alpha equals 2 and beta equals negative 4, what is their product?",
+    options: ["negative 8", "8", "negative 2", "2"],
+    answer: 0,
+    explanation: "Product equals 2 times negative 4 equals negative 8[cite: 16]."
+  },
+  {
+    q: "What quadratic equation has roots 2 and negative 4?",
+    options: ["x squared plus 2x plus 8 equals zero", "x squared plus 2x minus 8 equals zero", "x squared minus 2x minus 8 equals zero", "x squared minus 2x plus 8 equals zero"],
+    answer: 1,
+    explanation: "Using sum equals negative 2 and product equals negative 8 gives x squared minus negative 2x plus negative 8 equals zero, which is x squared plus 2x minus 8 equals zero[cite: 16]."
+  },
+  {
+    q: "In the word problem where the product of two consecutive integers is 156, what is the quadratic equation formed letting the first integer be n?",
+    options: ["n squared minus n plus 156 equals zero", "n squared plus 156n equals zero", "n squared plus n minus 156 equals zero", "2n plus 1 equals 156"],
+    answer: 2,
+    explanation: "n times n plus 1 equals 156 expands to n squared plus n minus 156 equals zero."
+  },
+  {
+    q: "What are the dimensions of the rectangular field whose length is 5 meters more than its width and whose area is 84 square meters?",
+    options: ["Width 5m and length 10m", "Width 6m and length 11m", "Width 8m and length 13m", "Width 7m and length 12m"],
+    answer: 3,
+    explanation: "Width 7 meters and length 7 plus 5 equals 12 meters gives area 84 square meters."
+  },
+  {
+    q: "What type of roots are indicated when Delta is greater than zero and is a perfect square?",
+    options: ["Real, rational, and distinct roots", "Real, irrational, and distinct roots", "Complex roots", "Equal real roots"],
+    answer: 0,
+    explanation: "A positive discriminant that is a perfect square yields real, rational, and distinct roots[cite: 15]."
+  },
+  {
+    q: "What type of roots are indicated when Delta is greater than zero but NOT a perfect square?",
+    options: ["Real and rational roots", "Real and irrational roots", "Equal roots", "Complex roots"],
+    answer: 1,
+    explanation: "If Delta is positive but not a perfect square, the roots are real and irrational[cite: 15]."
+  },
+  {
+    q: "If a quadratic equation is given in standard form ax squared plus bx plus c equals zero, what does coefficient c represent graphically?",
+    options: ["The x-intercept", "The vertex of the parabola", "The y-intercept", "The axis of symmetry"],
+    answer: 2,
+    explanation: "Setting x equals zero yields y equals c, making c the y-intercept of the parabola[cite: 15]."
+  },
+  {
+    q: "Which formula gives the axis of symmetry for a parabola described by ax squared plus bx plus c equals zero?",
+    options: ["x equals b over 2a", "x equals negative b over a", "x equals negative 4ac over 2a", "x equals negative b over 2a"],
+    answer: 3,
+    explanation: "The axis of symmetry for any vertical parabola ax squared plus bx plus c is given by x equals negative b over 2a[cite: 15]."
+  },
+  {
+    q: "If one root of a quadratic equation is 3 plus root 2, what must the other root be if coefficients are rational?",
+    options: ["3 minus root 2", "minus 3 plus root 2", "minus 3 minus root 2", "root 2 minus 3"],
+    answer: 0,
+    explanation: "Irrational roots of quadratic equations with rational coefficients always occur in conjugate pairs, so the other root is 3 minus root 2[cite: 15]."
+  },
+  {
+    q: "If the sum of the roots of ax squared plus minus 6x plus 8 equals zero is 3, what is coefficient a assuming standard form?",
+    options: ["1", "2", "3", "4"],
+    answer: 1,
+    explanation: "Sum equals negative negative 6 over a equals 6 over a equals 3, which means a equals 2[cite: 15]."
+  }
+]
+     }
     ]
   },
    
@@ -2666,9 +3263,307 @@ code: "STA 111",
           "Includes dispersion for individual and grouped data."
         ],
         questions: [
-          // TODO: Add your CBT questions for this PDF here.
-          // Keep each question in the same format as the existing questions above.
-        ]
+  {
+    q: "What does a measure of dispersion quantify in a statistical dataset?",
+    options: ["The exact middle value of an ordered list", "The most frequently occurring observation", "How spread out or scattered data points are around a central point", "The total sum of all observations"],
+    answer: 2,
+    explanation: "Measures of dispersion quantify how spread out or scattered data points are around a central point[cite: 17]."
+  },
+  {
+    q: "Which of the following are common examples of measures of dispersion?",
+    options: ["Mean, median, and mode", "Range, mean deviation, variance, and standard deviation", "Quartiles, deciles, and percentiles", "Pie charts, histograms, and ogives"],
+    answer: 1,
+    explanation: "Common examples of measures of dispersion include range, mean deviation, variance, and standard deviation[cite: 17]."
+  },
+  {
+    q: "Why are measures of dispersion important when analyzing a dataset?",
+    options: ["They replace the need for collecting data", "They determine whether a central value like mean or median is a reliable representation of the data", "They always equal zero", "They eliminate all outliers automatically"],
+    answer: 1,
+    explanation: "Measures of dispersion help determine if a central value is a reliable representation of the dataset[cite: 17]."
+  },
+  {
+    q: "What does a low value of dispersion indicate about a dataset?",
+    options: ["Data points are widely scattered", "Data points are closely clustered around the central value", "The mean is negative", "There are no observations"],
+    answer: 1,
+    explanation: "A low dispersion means data is clustered tightly around the central point[cite: 17]."
+  },
+  {
+    q: "What does a high value of dispersion show regarding data distribution?",
+    options: ["All values are identical", "Wide scattering of data points", "Zero variance", "Tight clustering around the median"],
+    answer: 1,
+    explanation: "High dispersion shows wide scattering across the dataset[cite: 17]."
+  },
+  {
+    q: "How is mean deviation defined in descriptive statistics?",
+    options: ["The mean of the absolute distances between each value and the mean", "The square root of the variance", "The highest value minus the lowest value", "The sum of squared deviations"],
+    answer: 0,
+    explanation: "Mean deviation is the mean of the absolute distances between each value and the mean[cite: 17]."
+  },
+  {
+    q: "What is the formula for calculating the mean deviation of ungrouped data?",
+    options: ["Sum of squared differences divided by n minus 1", "Sum of absolute differences between each value and the mean divided by n", "Maximum value minus minimum value", "Square root of total frequency"],
+    answer: 1,
+    explanation: "Mean deviation for ungrouped data equals the sum of absolute deviations from the mean divided by n[cite: 17]."
+  },
+  {
+    q: "For the sample dataset 5, 7, 11, and 13, what is the calculated sample mean?",
+    options: ["8", "10", "36", "9"],
+    answer: 3,
+    explanation: "Summing 5, 7, 11, and 13 gives 36, and dividing by 4 gives a mean of 9[cite: 17]."
+  },
+  {
+    q: "For the sample dataset 5, 7, 11, and 13 with a mean of 9, what is the sum of the absolute deviations?",
+    options: ["0", "12", "16", "36"],
+    answer: 1,
+    explanation: "The absolute deviations are 4, 2, 2, and 4, which sum to 12[cite: 17]."
+  },
+  {
+    q: "What is the final mean deviation for the ungrouped sample dataset 5, 7, 11, and 13?",
+    options: ["3", "2", "4", "12"],
+    answer: 0,
+    explanation: "Dividing the sum of absolute deviations 12 by sample size 4 gives a mean deviation of 3[cite: 18]."
+  },
+  {
+    q: "In the grouped data mean deviation formula, what does the symbol Xm represent?",
+    options: ["The total frequency", "The midpoint of the mth class interval", "The sample size", "The population variance"],
+    answer: 1,
+    explanation: "Xm represents the midpoint of the mth class interval[cite: 18]."
+  },
+  {
+    q: "In the grouped data mean deviation formula, what does Fm denote?",
+    options: ["The midpoint of the class", "The frequency of the mth class", "The overall mean", "The standard deviation"],
+    answer: 1,
+    explanation: "Fm represents the frequency of the mth class[cite: 18]."
+  },
+  {
+    q: "In the STA 112 grouped exam scores example with total frequency 46 and sum of Fm times Xm equal to 3357, what is the approximate grouped mean?",
+    options: ["73", "46", "84.5", "10.13"],
+    answer: 0,
+    explanation: "Dividing 3357 by 46 gives 72.978, which rounds to approximately 73[cite: 18]."
+  },
+  {
+    q: "What is the final calculated mean deviation for the STA 112 grouped exam scores example?",
+    options: ["72.98", "466", "46", "10.1304"],
+    answer: 3,
+    explanation: "Dividing 466 by 46 gives a grouped mean deviation of 10.1304[cite: 19]."
+  },
+  {
+    q: "What symbol is standardly used to denote sample standard deviation?",
+    options: ["sigma", "s", "mu", "N"],
+    answer: 1,
+    explanation: "Sample standard deviation is denoted by the lowercase letter s[cite: 19]."
+  },
+  {
+    q: "What symbol denotes population variance?",
+    options: ["sigma squared", "s squared", "s", "mu"],
+    answer: 0,
+    explanation: "Population variance is denoted by sigma squared[cite: 19]."
+  },
+  {
+    q: "What symbol denotes sample variance?",
+    options: ["sigma squared", "mu squared", "N minus 1", "s squared"],
+    answer: 3,
+    explanation: "Sample variance is denoted by s squared[cite: 19]."
+  },
+  {
+    q: "How is variance mathematically related to standard deviation?",
+    options: ["Variance is the square root of standard deviation", "Variance is found by squaring the standard deviation", "Variance is half of standard deviation", "Variance equals standard deviation plus mean"],
+    answer: 1,
+    explanation: "Variance can be found by squaring the standard deviation[cite: 19]."
+  },
+  {
+    q: "What does a lower value of standard deviation indicate about a dataset?",
+    options: ["Values are spread over a relatively smaller range closely around the mean", "Values are widely scattered far from the mean", "The sample size is very large", "The mean is zero"],
+    answer: 0,
+    explanation: "A lower standard deviation indicates values are spread over a relatively smaller range around the mean[cite: 19]."
+  },
+  {
+    q: "In the population variance formula for ungrouped data, what denominator is used?",
+    options: ["N", "n minus 1", "N plus 1", "2N"],
+    answer: 0,
+    explanation: "Population variance divides the sum of squared deviations by the population size N[cite: 19]."
+  },
+  {
+    q: "In the sample variance formula for ungrouped data, what denominator is used?",
+    options: ["n minus 1", "n", "n plus 1", "N squared"],
+    answer: 0,
+    explanation: "Sample variance divides the sum of squared deviations by n minus 1[cite: 19]."
+  },
+  {
+    q: "What does the Greek letter mu represent in the population variance formula?",
+    options: ["Sample size", "Sample standard deviation", "Class midpoint", "Population mean"],
+    answer: 3,
+    explanation: "In population formulas, mu represents the population mean[cite: 19]."
+  },
+  {
+    q: "Find the population mean for the dataset: 20, 30, 15, 20, 25, and 10.",
+    options: ["20", "15", "25", "120"],
+    answer: 0,
+    explanation: "Summing the 6 values gives 120, and dividing 120 by 6 yields a mean of 20[cite: 20]."
+  },
+  {
+    q: "For the dataset 20, 30, 15, 20, 25, and 10 with mean 20, what is the sum of the squared deviations?",
+    options: ["100", "250", "41.66", "6.5"],
+    answer: 1,
+    explanation: "The squared deviations are 0, 100, 25, 0, 25, and 100, which sum to 250[cite: 20]."
+  },
+  {
+    q: "What is the population variance for the dataset 20, 30, 15, 20, 25, and 10?",
+    options: ["6.5", "250", "41.66", "20"],
+    answer: 2,
+    explanation: "Dividing the sum of squared deviations 250 by N equals 6 gives 41.66[cite: 20]."
+  },
+  {
+    q: "What is the population standard deviation for the dataset 20, 30, 15, 20, 25, and 10?",
+    options: ["41.66", "6.5", "20", "5"],
+    answer: 1,
+    explanation: "Taking the square root of variance 41.66 yields a standard deviation of 6.5[cite: 20]."
+  },
+  {
+    q: "Calculate the sample mean for the dataset: 3, 5, 7, 9, and 11.",
+    options: ["5", "9", "7", "35"],
+    answer: 2,
+    explanation: "Summing 3, 5, 7, 9, and 11 gives 35, and dividing by 5 yields a sample mean of 7[cite: 20]."
+  },
+  {
+    q: "For the sample dataset 3, 5, 7, 9, and 11 with mean 7, what is the total sum of squared deviations?",
+    options: ["10", "20", "3.2", "40"],
+    answer: 3,
+    explanation: "The squared deviations are 16, 4, 0, 4, and 16, totaling 40[cite: 21]."
+  },
+  {
+    q: "What is the sample variance for the dataset 3, 5, 7, 9, and 11?",
+    options: ["10", "8", "3.2", "40"],
+    answer: 0,
+    explanation: "Dividing 40 by n minus 1 which is 5 minus 1 equals 4 gives a sample variance of 10[cite: 21]."
+  },
+  {
+    q: "What is the sample standard deviation for the dataset 3, 5, 7, 9, and 11?",
+    options: ["10", "4", "7", "3.2"],
+    answer: 3,
+    explanation: "Taking the square root of sample variance 10 gives approximately 3.2[cite: 21]."
+  },
+  {
+    q: "In the grouped frequency distribution sample example with classes from 5 to 34, what is the total frequency?",
+    options: ["20", "18.5", "370", "19"],
+    answer: 0,
+    explanation: "Adding the class frequencies 2, 4, 7, 3, 1, and 3 gives a total frequency of 20[cite: 22]."
+  },
+  {
+    q: "What is the midpoint of the class interval 5 to 9 in the grouped sample example?",
+    options: ["5", "9", "14", "7"],
+    answer: 3,
+    explanation: "The midpoint of 5 to 9 is 5 plus 9 divided by 2, which equals 7[cite: 22]."
+  },
+  {
+    q: "What is the midpoint of the class interval 15 to 19 in the grouped sample example?",
+    options: ["17", "15", "19", "119"],
+    answer: 0,
+    explanation: "The midpoint of 15 to 19 is 15 plus 19 divided by 2, which equals 17[cite: 22]."
+  },
+  {
+    q: "In the grouped sample example where sum of Fm times Xm is 370 and total frequency is 20, what is the sample mean?",
+    options: ["18.5", "20", "19", "58.16"],
+    answer: 0,
+    explanation: "Dividing 370 by 20 yields a grouped sample mean of 18.5[cite: 22]."
+  },
+  {
+    q: "In the grouped sample example where sum of Fm times squared deviation is 1105 and total frequency is 20, what denominator is used to find sample variance?",
+    options: ["20", "19", "21", "18.5"],
+    answer: 1,
+    explanation: "For sample variance, the denominator is total frequency minus 1, which is 20 minus 1 equals 19[cite: 22]."
+  },
+  {
+    q: "What is the calculated sample variance in the grouped frequency distribution example?",
+    options: ["7.6261", "58.1579", "1105", "18.5"],
+    answer: 1,
+    explanation: "Dividing 1105 by 19 yields a sample variance of 58.1579[cite: 22]."
+  },
+  {
+    q: "What is the final sample standard deviation in the grouped frequency distribution example?",
+    options: ["58.1579", "18.5", "7.6261", "19"],
+    answer: 2,
+    explanation: "Taking the square root of 58.1579 gives a standard deviation of 7.6261[cite: 22]."
+  },
+  {
+    q: "Why do we take absolute values when calculating mean deviation?",
+    options: ["To make the calculation faster", "To convert sample data into population data", "To eliminate the mean from the formula", "So positive and negative deviations from the mean do not cancel each other out"],
+    answer: 3,
+    explanation: "Using absolute values ensures distances from the mean are positive and do not sum to zero[cite: 17]."
+  },
+  {
+    q: "If a dataset has no variation at all because every number is identical, what will its mean deviation, variance, and standard deviation be?",
+    options: ["1", "Equal to the mean", "0", "Undefined"],
+    answer: 2,
+    explanation: "When all values equal the mean, all deviations are zero, resulting in zero dispersion[cite: 17]."
+  },
+  {
+    q: "Which measure of dispersion uses the exact same units of measurement as the original dataset?",
+    options: ["Variance", "Standard deviation", "Squared deviation", "Sample size"],
+    answer: 1,
+    explanation: "Standard deviation is the square root of variance, bringing the dispersion metric back to the original units[cite: 19]."
+  },
+  {
+    q: "What is the first step when finding the mean deviation of an ungrouped sample dataset?",
+    options: ["Square every observation", "Subtract 1 from the sample size", "Find the sample mean", "Identify the largest observation"],
+    answer: 2,
+    explanation: "Step 1 in finding mean deviation is calculating the sample mean[cite: 17]."
+  },
+  {
+    q: "In grouped data calculations for variance, each squared class deviation is multiplied by which value before summing?",
+    options: ["The class width", "The lower class limit", "The class frequency Fm", "The population size N"],
+    answer: 2,
+    explanation: "Each squared deviation from the mean is weighted by its class frequency Fm[cite: 21]."
+  },
+  {
+    q: "Which formula represents the population standard deviation for grouped data?",
+    options: ["Square root of sum of Fm times squared deviation divided by n minus 1", "Sum of Fm times Xm divided by N", "Square root of sum of Fm times squared deviation divided by N", "Sum of absolute deviations divided by N"],
+    answer: 2,
+    explanation: "Population standard deviation for grouped data divides the weighted sum of squared deviations by N before taking the square root[cite: 21]."
+  },
+  {
+    q: "What is the midpoint of the class interval 40 to 49 in the STA 112 exam scores table?",
+    options: ["44.5", "40", "49", "89"],
+    answer: 0,
+    explanation: "The midpoint of 40 to 49 is 40 plus 49 divided by 2, which equals 44.5[cite: 18]."
+  },
+  {
+    q: "In the STA 112 exam scores table, which class interval had the highest frequency of 15 students?",
+    options: ["70 to 79", "60 to 69", "80 to 89", "50 to 59"],
+    answer: 0,
+    explanation: "The class interval 70 to 79 recorded the highest frequency of 15[cite: 18]."
+  },
+  {
+    q: "When calculating deviations for the dataset 3, 5, 7, 9, and 11 with a mean of 7, what is the deviation for the value 3?",
+    options: ["4", "0", "16", "negative 4"],
+    answer: 3,
+    explanation: "Subtracting the mean 7 from 3 gives 3 minus 7 equals negative 4[cite: 21]."
+  },
+  {
+    q: "When squaring the deviation negative 11.5 for the class interval 5 to 9 in the grouped sample example, what value is obtained?",
+    options: ["264.5", "14", "23", "132.25"],
+    answer: 3,
+    explanation: "Squaring negative 11.5 gives 132.25, which is then multiplied by frequency 2 to get 264.5[cite: 22]."
+  },
+  {
+    q: "What is the alternative term used in descriptive statistics for measures of dispersion?",
+    options: ["Measures of central tendency", "Measures of position", "Measures of variation", "Measures of symmetry"],
+    answer: 2,
+    explanation: "Measures of dispersion are also referred to as measures of variation[cite: 17]."
+  },
+  {
+    q: "If the sample variance of a dataset is 64, what is the sample standard deviation?",
+    options: ["32", "8", "4096", "16"],
+    answer: 1,
+    explanation: "Since standard deviation is the positive square root of variance, the square root of 64 is 8[cite: 19]."
+  },
+  {
+    q: "If the population standard deviation of a dataset is 5, what is the population variance?",
+    options: ["25", "2.24", "10", "50"],
+    answer: 0,
+    explanation: "Variance is obtained by squaring the standard deviation, so 5 squared equals 25[cite: 19]."
+  }
+]
       }
     ]
   },
