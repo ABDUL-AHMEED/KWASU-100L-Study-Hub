@@ -988,7 +988,7 @@ const COURSES_DB = [
             explanation: "The slides feature the Kwara State University KWASU crest[cite: 29]."
           }
         ]
-      }
+      },
     ] 
 
   },
