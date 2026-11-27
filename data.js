@@ -352,12 +352,13 @@ const COURSES_DB = [
             explanation: "The body tag holds the main visual content of an HTML document."
           }
         ]
+        
       },
       {
         id: "csc101-syllabus",
         week: "Course Syllabus (2026/2027)",
         title: "CSC 101: Internet Programming I Syllabus & Course Roadmap",
-        pdfPath: "pdfs/kwasu csc 101 syllabus 2026_2027.pdf",
+        pdfPath: "kwasu csc 101 syllabus 2026_2027.pdf",
         summary: [
           "1. Topic Introduction: KWASU-CSC 101 (Internet Programming I) is a 2-unit core course for first-year B.Sc. and B.Ed. Computer Science students in the 2026/2027 Harmattan Semester, coordinated by Dr. S. R. Yusuff (Lectures hold Wednesdays at ICT LR G from 12 PM to 2 PM for Group A, and ICT LR H from 2 PM to 4 PM for Group B)[cite: 23]. It introduces the foundations of the Internet and World Wide Web alongside practical static front-end web development[cite: 23].",
           "2. Detailed Lecture Explanations: The 13-week curriculum is structured into three progressive modules[cite: 25, 27]. Module A (Weeks 1 to 2) covers the distinction between the physical Internet infrastructure and the Web service, ARPANET history, Tim Berners-Lee, and client-server request-response communication[cite: 25]. Module B (Weeks 3 to 10) dives deeply into HTML document skeletons, tags, attributes, character entities, text formatting, headings, lists, images, hyperlinks, tables, forms, and semantic HTML[cite: 25, 26, 27]. Module C (Weeks 11 to 13) introduces Cascading Style Sheets (CSS) for visual styling, JavaScript (JS) for DOM interactivity, and culminates in hosting a personal portfolio website[cite: 25, 27].",
@@ -672,6 +673,323 @@ const COURSES_DB = [
       }
     ]
   },
+  {
+        id: "csc101-comments-lists",
+        week: "Module 2",
+        title: "HTML Comments and Lists",
+        pdfPath: "pdfs/HTML_COMMENTS_LIST.pdf",
+        summary: [
+          "1. Topic Introduction: This lecture note from Kwara State University (KWASU), Department of Computer, Library and Information Science, coordinated by Shakirat Yusuff, covers core HTML concepts including attributes, human-readable comments, and comprehensive list structures (ordered, unordered, and definition lists)[cite: 29, 30, 31, 32, 33].",
+          "2. Detailed Lecture Explanations: The material explains how HTML elements accept name/value attribute pairs in start tags to provide extra metadata (such as paragraph alignment or horizontal rule styling)[cite: 31]. It details syntax rules for writing browser-ignored comments for developer collaboration, and breaks down the structural differences, default behaviors, nesting rules, and type attributes for ordered lists (<ol>), unordered lists (<ul>), and definition lists (<dl>, <dt>, <dd>)[cite: 32, 34, 36, 38].",
+          "3. Important Definitions and Terminology: HTML Attributes (extra metadata specified in start tags as name equals value)[cite: 31]; Comments (human-readable notes starting with `<!--` and ending with `-->` ignored by browsers)[cite: 32]; Ordered Lists (`<ol>` used for sequential items using Arabic numerals, Roman numerals, or letters by default)[cite: 34]; Unordered Lists (`<ul>` used for items of equal importance using disc, circle, or square bullets)[cite: 36]; Definition Lists (`<dl>` rendering terms and indented descriptions without bullets)[cite: 38].",
+          "4. Examples and Applications: Practical demonstrations include nested ordered lists tracking university semester courses (e.g., Harmattan and Rain semesters with roman and arabic sub-numbering), nested unordered lists recording passed classes, and definition lists detailing web design languages like HTML, CSS, and JavaScript[cite: 40, 43, 44, 46].",
+          "5. Formulas and Markup Syntax: Standard syntax patterns include `<ol type='I' start='4'>`, `<ul type='disc'>`, and `<dl><dt>term</dt><dd>explanation</dd></dl>`[cite: 34, 36, 38, 43].",
+          "6. Important Examination Points: Ordered lists default to Arabic numerals and accept type values (`1`, `A`, `a`, `I`, `i`) and `start` attributes; unordered lists default to `disc` bullets and accept `disc`, `circle`, or `square`; definition lists display terms with indented descriptions (`<dd>`) without bullets[cite: 34, 36, 38].",
+          "7. Revision Exercises: The lecture note concludes with a practical assignment requiring students to create a softcopy web page displaying the course outline for CSC 207 (weeks and topics only, excluding references) using ordered lists for weeks and topics, unordered lists for sub-topics, and proper text formatting tags[cite: 46]."
+        ],
+        questions: [
+          {
+            q: "What purpose do attributes serve in HTML elements?",
+            options: ["They provide additional information about an element", "They replace the need for tags", "They compile the web page into binary", "They act as web servers"],
+            answer: 0,
+            explanation: "Attributes provide additional information about an element and are always specified in the start tag[cite: 31]."
+          },
+          {
+            q: "Where must HTML attributes always be specified?",
+            options: ["In the end tag", "In the start tag", "Inside the comment block", "In the external stylesheet"],
+            answer: 1,
+            explanation: "Attributes are always specified in the start tag[cite: 31]."
+          },
+          {
+            q: "How do HTML attributes commonly come formatted?",
+            options: ["As function parameter pairs", "As name value pairs like name equals value", "As boolean switches only", "As bullet point symbols"],
+            answer: 1,
+            explanation: "Attributes come in name/value pairs like name equals value[cite: 31]."
+          },
+          {
+            q: "Where can HTML comments exist within a document?",
+            options: ["Anywhere between the html tags", "Only inside the head section", "Only after the body tag", "Only inside table cells"],
+            answer: 0,
+            explanation: "Comments can exist anywhere between the html tags[cite: 32]."
+          },
+          {
+            q: "What is the primary purpose of HTML comments?",
+            options: ["To execute background scripts", "To style text formatting", "To contain information for humans to read and for the browser to ignore", "To speed up page loading"],
+            answer: 2,
+            explanation: "Comments contain information for other humans to read and for the browser to ignore[cite: 32]."
+          },
+          {
+            q: "How do HTML comments start and end?",
+            options: ["They start with exclamation point hyphen hyphen and end with hyphen hyphen greater than", "They start with slash asterisk and end with asterisk slash", "They start with hash and end with newline", "They start with percent and end with percent"],
+            answer: 0,
+            explanation: "Comments start with exclamation point hyphen hyphen and end with hyphen hyphen greater than[cite: 32]."
+          },
+          {
+            q: "What are the three basic types of lists covered in HTML?",
+            options: ["Ordered, unordered, and definition lists", "Numbered, bulleted, and table lists", "Primary, secondary, and tertiary lists", "Block, inline, and flex lists"],
+            answer: 0,
+            explanation: "There are basically three types of lists: Ordered Lists, Unordered Lists, and Definition Lists[cite: 33]."
+          },
+          {
+            q: "When should an Ordered List using the ol tag be used?",
+            options: ["When each item is equally important", "When information order is important", "When displaying term definitions", "When creating image galleries"],
+            answer: 1,
+            explanation: "Ordered lists are used for information for which order is important[cite: 34]."
+          },
+          {
+            q: "What numbering type does an ordered list use by default?",
+            options: ["Roman numerals", "Alphabetical letters", "Arabic numerals", "Bullet circles"],
+            answer: 2,
+            explanation: "Ordered list uses Arabic numerals as its default numbering type[cite: 34]."
+          },
+          {
+            q: "What are the two main attributes for the ordered list ol tag?",
+            options: ["src and alt", "type and start", "href and target", "action and method"],
+            answer: 1,
+            explanation: "Two main attributes for OL are type and start[cite: 34]."
+          },
+          {
+            q: "Which of the following are valid attribute values for the ordered list type attribute?",
+            options: ["disc, circle, square", "1, A, a, I, or i", "bold, italic, underline", "left, right, center"],
+            answer: 1,
+            explanation: "Attribute values for type in ordered lists are 1, A, a, I, or i[cite: 34]."
+          },
+          {
+            q: "Which attribute can be used in an ordered list to continue a previous numbering sequence?",
+            options: ["type attribute", "value attribute", "start attribute", "continue attribute"],
+            answer: 2,
+            explanation: "The start attribute can be used to continue a previous numbering[cite: 35]."
+          },
+          {
+            q: "How can the value of an individual item in an ordered list be changed?",
+            options: ["By using the value attribute in the li tag", "By changing the DOCTYPE", "By adding a comment tag", "By using the start attribute on the ol tag"],
+            answer: 0,
+            explanation: "The value of each item in the list can also be changed by using the value attribute in the li tag[cite: 35]."
+          },
+          {
+            q: "When should an Unordered List using the ul tag be used?",
+            options: ["When order is strictly sequential", "When each item is equally important", "When defining technical terms", "When creating table rows"],
+            answer: 1,
+            explanation: "Unordered lists are used for information when each item is equally important[cite: 36]."
+          },
+          {
+            q: "What tag is used to specify each individual item inside an ordered or unordered list?",
+            options: ["The item tag", "The list tag", "The li tag", "The ul tag"],
+            answer: 1,
+            explanation: "Each item of the list should be specified with the list item command li[cite: 34, 36]."
+          },
+          {
+            q: "What is the default bullet type for an unordered list?",
+            options: ["Circle", "Square", "Disc", "Triangle"],
+            answer: 1,
+            explanation: "The default bullet type is disc[cite: 36]."
+          },
+          {
+            q: "What are the valid attribute values for the type attribute in an unordered list?",
+            options: ["1, A, a, I, i", "disc, circle, or square", "top, bottom, middle", "solid, dashed, dotted"],
+            answer: 1,
+            explanation: "Main attribute for UL is type with values: disc, circle or square[cite: 36]."
+          },
+          {
+            q: "When nesting unordered lists, what rule must each sublist follow?",
+            options: ["It must use Arabic numerals", "It must be a complete list using beginning and ending ul tags", "It must be placed inside a table cell", "It must use definition dt tags"],
+            answer: 1,
+            explanation: "Each sublist must be a complete list using the beginning and ending ul tags[cite: 37]."
+          },
+          {
+            q: "How do browsers handle bullet types when unordered lists are nested across multiple levels?",
+            options: ["The browser assigns the same disc bullet to every level", "The browser assigns a different bullet type to each level of nesting", "The browser removes all bullets automatically", "The browser converts them to numbers"],
+            answer: 1,
+            explanation: "The browser assigns a different bullet type to each level of nesting[cite: 37]."
+          },
+          {
+            q: "What tag is used to create a definition list in HTML?",
+            options: ["The dl tag", "The dt tag", "The dd tag", "The list tag"],
+            answer: 0,
+            explanation: "Create definition lists using the dl tag[cite: 38]."
+          },
+          {
+            q: "How does a definition list render visually compared to ordered and unordered lists?",
+            options: ["It renders with bold numbers", "It renders with square bullets", "It renders without bullets", "It renders inside a boxed table"],
+            answer: 2,
+            explanation: "Definition lists render without bullets[cite: 38]."
+          },
+          {
+            q: "What does the dt tag create inside a definition list?",
+            options: ["A definition term", "A definition explanation description", "A bullet point", "A table row"],
+            answer: 0,
+            explanation: "The dt tag creates a definition term in a definition list[cite: 38]."
+          },
+          {
+            q: "How does the dd tag appear relative to its definition term dt in a browser?",
+            options: ["It appears centered above the term", "It appears indented and below the term", "It replaces the term entirely", "It renders with bullet points"],
+            answer: 1,
+            explanation: "The dd tag defines the definition for the term and will appear indented and below the term[cite: 38]."
+          },
+          {
+            q: "In the definition list example showing web design languages, what term was defined for HTML?",
+            options: ["A markup language designed for the creation of web pages with hypertext and other information", "A scripting language produced by Netscape", "A language used to describe formatting", "A server database router"],
+            answer: 0,
+            explanation: "HTML is defined as a markup language designed for the creation of web pages with hypertext and other information[cite: 40]."
+          },
+          {
+            q: "In the definition list example, what was Cascading Style Sheets (CSS) described as?",
+            options: ["A markup language for hypertext", "Language used to describe how an HTML document should be formatted", "A scripting language for interactivity", "A web server application"],
+            answer: 1,
+            explanation: "CSS is described as a language used to describe how an HTML document should be formatted[cite: 40]."
+          },
+          {
+            q: "Which scripting language was highlighted in the definition list example as produced by Netscape for interactivity?",
+            options: ["Python", "JavaScript", "PHP", "Java"],
+            answer: 1,
+            explanation: "JavaScript is described as a scripting language produced by Netscape for use within HTML Web pages[cite: 40]."
+          },
+          {
+            q: "In the nested ordered list example for session courses, what type attribute was used for the main Harmattan Semester list?",
+            options: ["type equals '1'", "type equals 'a'", "type equals 'I'", "type equals 'disc'"],
+            answer: 2,
+            explanation: "The main list used type equals 'I' for Roman numerals[cite: 43]."
+          },
+          {
+            q: "In the course assignment detailed at the end of the lecture notes, which course outline must students create a web page for?",
+            options: ["CSC 101", "CSC 207", "MTH 101", "STA 111"],
+            answer: 1,
+            explanation: "The assignment requires creating a web page that displays the course outline for csc 207[cite: 46]."
+          },
+          {
+            q: "According to the assignment instructions, what should NOT be included in the csc 207 web page?",
+            options: ["The weeks", "The topics", "The references", "The text formatting"],
+            answer: 2,
+            explanation: "The assignment explicitly states: Do not include the references[cite: 46]."
+          },
+          {
+            q: "What specific list types does the assignment instruct students to use for weeks and topics?",
+            options: ["Unordered list for weeks and ordered list for topics", "Ordered list for the weeks and ordered list for the topics", "Definition list for both weeks and topics", "Unordered list for both weeks and topics"],
+            answer: 1,
+            explanation: "Use ordered list for the weeks and also use ordered list for the topics[cite: 46]."
+          },
+          {
+            q: "What list type does the assignment specify for sub topics?",
+            options: ["Ordered list", "Definition list", "Unordered list", "Table structure"],
+            answer: 2,
+            explanation: "Use unordered list for the sub topics[cite: 46]."
+          },
+          {
+            q: "What delivery format is required for the csc 207 assignment in class next week?",
+            options: ["A printed paper booklet", "A softcopy of your webpage", "A physical CD-ROM", "An oral presentation only"],
+            answer: 1,
+            explanation: "Come to class with a softcopy of your webpage next week[cite: 46]."
+          },
+          {
+            q: "Which HTML tag is used to create a second-level heading in the ordered list example code?",
+            options: ["The h1 tag", "The h2 tag", "The h3 tag", "The title tag"],
+            answer: 1,
+            explanation: "The example uses h2 for Example of ordered lists[cite: 41]."
+          },
+          {
+            q: "In the nested unordered list example, what text appeared inside the nested list under csc 101?",
+            options: ["I am learning to be a web developer", "Thank God. I survived these classes", "Looking forward to this class", "I enjoyed this class"],
+            answer: 1,
+            explanation: "The nested item under csc 101 states: Thank God. I survived these classes[cite: 44]."
+          },
+          {
+            q: "What was the subtitle of the HTML Comments and Lists lecture note coordinated by Shakirat Yusuff?",
+            options: ["Advanced JavaScript Programming", "HTML Comments and Lists", "Database Management Systems", "Operating System Architectures"],
+            answer: 1,
+            explanation: "The lecture note title is HTML Comments and Lists[cite: 30]."
+          },
+          {
+            q: "Which department is listed for the lecturer Shakirat Yusuff on the title slide?",
+            options: ["Department of Computer Science", "Department of Computer, Library and Information Science", "Department of Mathematics", "Department of Physics"],
+            answer: 1,
+            explanation: "Shakirat Yusuff belongs to the Department of Computer, Library and Information Science[cite: 30]."
+          },
+          {
+            q: "In the HTML attribute example slide, what tag was used with an align attribute set to right?",
+            options: ["The paragraph p tag", "The heading h1 tag", "The division div tag", "The anchor a tag"],
+            answer: 0,
+            explanation: "The example shows paragraph p align equals right Hello /p[cite: 31]."
+          },
+          {
+            q: "In the horizontal rule attribute example slide, what color and width were specified?",
+            options: ["Width 50 percent and color red", "Width 75 percent and color blue", "Width 100 percent and color green", "Width 25 percent and color yellow"],
+            answer: 1,
+            explanation: "The example shows hr width equals 75 percent color equals blue[cite: 31]."
+          },
+          {
+            q: "Which comment example was given to illustrate showing the university logo?",
+            options: ["Show the logo for kwasu", "Hyperlink to the web site", "Header section start", "Table border comment"],
+            answer: 0,
+            explanation: "The comment example shows exclamation point hyphen hyphen Show the logo for kwasu hyphen hyphen greater than[cite: 32]."
+          },
+          {
+            q: "What hyperlink URL was used in the comment example illustrating an anchor tag?",
+            options: ["http://kwasu.edu.ng/", "http://google.com", "http://w3c.org", "http://github.com"],
+            answer: 0,
+            explanation: "The comment example references the hyperlink http://kwasu.edu.ng/[cite: 32]."
+          },
+          {
+            q: "What summary function do lists provide according to the HTML lists introductory slide?",
+            options: ["They act as a summary, menu or outline of the contents of the document", "They compile CSS stylesheets", "They replace the body tag", "They execute JavaScript functions"],
+            answer: 0,
+            explanation: "They can work as a summary, menu or outline of the contents of the document[cite: 33]."
+          },
+          {
+            q: "In the nested ordered list example for the 2015/2016 session, what course was listed under Harmattan Semester with a sub-item about web development?",
+            options: ["csc 207", "gns 203", "lis 207", "csc 208"],
+            answer: 0,
+            explanation: "Under csc 207, the sub-item states: I am learning to be a web developer[cite: 43]."
+          },
+          {
+            q: "In the nested ordered list example, what start attribute value was specified for the Rain Semester list?",
+            options: ["start equals '2'", "start equals '4'", "start equals '10'", "start equals '0'"],
+            answer: 1,
+            explanation: "The Rain Semester ordered list specifies start equals '4'[cite: 43]."
+          },
+          {
+            q: "What expression was noted in the nested unordered list for Rain Semester 2014?",
+            options: ["i enjoyed this class", "Thank God. I survived these classes", "I am learning to be a web developer", "looking forward to this class"],
+            answer: 0,
+            explanation: "Under Rain Semester 2014, the subitem states: i enjoyed this class[cite: 44]."
+          },
+          {
+            q: "What tag pair is used to create a definition term inside a definition list?",
+            options: ["dt tags", "dd tags", "dl tags", "li tags"],
+            answer: 0,
+            explanation: "The dt tag creates a definition term in a definition list[cite: 38]."
+          },
+          {
+            q: "What tag pair is used to define the explanation or definition for a term in a definition list?",
+            options: ["dt tags", "dd tags", "ol tags", "p tags"],
+            answer: 1,
+            explanation: "The dd tag defines the definition for the term[cite: 38]."
+          },
+          {
+            q: "Which of the following is true regarding comments in HTML?",
+            options: ["Browsers display comment text in bold on the screen", "Browsers ignore comments completely", "Comments must be placed inside the title tag", "Comments require closing tags with slashes"],
+            answer: 1,
+            explanation: "Comments contain information for other humans to read and for the browser to ignore[cite: 32]."
+          },
+          {
+            q: "When creating a nested ordered list, what happens if you change the type attribute in a sublist?",
+            options: ["It overrides the numbering style for that specific sublist level", "It breaks the entire HTML file", "It deletes the parent list items", "It converts the list into an unordered bullet list"],
+            answer: 0,
+            explanation: "Each sub list can use a different type of numbering using the type attribute[cite: 35]."
+          },
+          {
+            q: "Why are text formatting tags recommended in the course assignment instructions?",
+            options: ["To format text appropriately within the nested list structure", "To encrypt the webpage source code", "To connect to remote MySQL databases", "To automatically generate CSS stylesheets"],
+            answer: 0,
+            explanation: "Use text formatting tags to format your text in the assignment[cite: 46]."
+          },
+          {
+            q: "What institution's crest appears on the header slides of the HTML Comments and Lists lecture presentation?",
+            options: ["University of Lagos", "Kwara State University", "University of Ibadan", "Covenant University"],
+            answer: 1,
+            explanation: "The slides feature the Kwara State University KWASU crest[cite: 29]."
+          }
+        ]
+      },
 
   {
     code: "COS 101",
