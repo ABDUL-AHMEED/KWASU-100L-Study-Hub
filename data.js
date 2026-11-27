@@ -986,11 +986,11 @@ const COURSES_DB = [
             options: ["University of Lagos", "Kwara State University", "University of Ibadan", "Covenant University"],
             answer: 1,
             explanation: "The slides feature the Kwara State University KWASU crest[cite: 29]."
-                ]
-
+          }
+        ]
       }
+    ] 
 
-    ],
   },
       
 
@@ -4220,4 +4220,5 @@ code: "STA 111",
       }
     ]
   }
-    ]
+] 
+  
