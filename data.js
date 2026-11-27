@@ -670,10 +670,9 @@ const COURSES_DB = [
             explanation: "Only students who officially registered for the course on the KWASU portal will have their grades recorded[cite: 28]."
           }
         ]
-      }
-    ]
   },
-  {
+  
+      {
         id: "csc101-comments-lists",
         week: "Module 2",
         title: "HTML Comments and Lists",
@@ -990,6 +989,8 @@ const COURSES_DB = [
           }
         ]
       },
+
+      
 
   {
     code: "COS 101",
